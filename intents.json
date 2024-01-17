@@ -1,0 +1,99 @@
+{
+    "intents": [
+      {
+        "tag": "reservation",
+        "patterns": ["How can I make a reservation?"],
+        "responses": ["To make an appointment, please call The Spa at (857) 770-3900 or click here."]
+      },
+      {
+        "tag": "walk-ins",
+        "patterns": ["Are walk-ins allowed?"],
+        "responses": ["Reservations are recommended but walk-in reservations are available; treatment accommodations are based on availability. An appointment can be made at The Spa reception desk, or by calling our reservations line at (857) 770-3900 in advance."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where is The Spa located within the property? Are there parking options available?"],
+        "responses": ["The Spa at Encore Boston Harbor is located on the third floor. Utilize the hotel elevators to access the spa level. Yes, you can opt to use self-parking or you can valet your car. For more parking information, please click here. If you opt to self-park, we recommend using the Resort South or Resort East entrances as they are closest to the hotel elevators."]
+      },
+      {
+        "tag": "cancel_appointment",
+        "patterns": ["I need to cancel an appointment, how can I do so?"],
+        "responses": ["Please call The Spa directly at (857) 770-3900 to cancel or reschedule your appointment. As a courtesy to all, we ask our guests to kindly give a 24 hours’ notice if you need to cancel or change your appointment to avoid the 50% cancellation fee. For cancellations with less than 6 hours and no-show notification, guests will be charged 100% of the treatment fee."]
+      },
+      {
+        "tag": "phone_usage",
+        "patterns": ["Can I use my phone or iPad once entered The Spa?"],
+        "responses": ["We strive to provide our guests with a tranquil and private escape from the outside world. Please help us by turning off cell phones, personal electronic devices and cameras upon entering The Spa or The Salon."]
+      },
+      {
+        "tag": "early_arrival",
+        "patterns": ["How early can I come to The Spa for my appointment?"],
+        "responses": ["For The Spa please arrive 45 minutes prior to the start of your scheduled appointment to allow yourself time to shower and take advantage of using the relaxation lounge and the heat and water facilities. To provide ample relaxation time to all our guests receiving treatments, heat and water facilities are available only a maximum of one hour prior to the treatments and not to be used afterwards. For The Salon, please arrive five minutes prior to the start of your scheduled appointment. Late arrivals will be subject to reduced treatment times."]
+      },
+      {
+        "tag": "compdollars_usage",
+        "patterns": ["Can I use my COMPDOLLARS at The Spa or The Salon?"],
+        "responses": ["We accept COMPDOLLARS for all Spa and Salon services and retail. COMPDOLLARS cannot be used towards gratuities."]
+      },
+      {
+        "tag": "age_requirement",
+        "patterns": ["What age do I have to be to use The Spa?"],
+        "responses": ["You must be 18 years of age or older to use The Spa."]
+      },
+      {
+        "tag": "attire",
+        "patterns": ["What do I wear at The Spa? Is a bathing suit required to use the heat and water facilities?"],
+        "responses": ["Robes and slippers are provided for your convenience. Professional draping is performed throughout your treatment. A bathing suit is required to use the heat and water facilities."]
+      },
+      {
+        "tag": "facility_usage",
+        "patterns": ["Can I use The Spa heat and water facilities if I have Salon services?"],
+        "responses": ["The heat and water facilities are included only for guests having Spa services and are not included for guests having Salon services."]
+      },
+      {
+        "tag": "non_resort_guests",
+        "patterns": ["Can I use The Spa if I am not staying at Encore Boston Harbor?"],
+        "responses": ["Yes. The Spa and The Salon are available for non-resort guests to make reservations."]
+      },
+      {
+        "tag": "allergies",
+        "patterns": ["What if I’m allergic to certain products?"],
+        "responses": ["Please advise us of any allergies so that we may use products that are appropriate for you."]
+      },
+      {
+        "tag": "pregnancy_services",
+        "patterns": ["What services can I do if I’m pregnant?"],
+        "responses": ["There are options for our mothers-to-be, please consult with one of our reservation specialists to book your appointments. Please be advised pre-natal body treatments are contraindicated during the first trimester, however facial options as well as manicure and pedicures would be available."]
+      },
+      {
+        "tag": "coed_areas",
+        "patterns": ["Are there any areas in the Spa where ladies and gentlemen can be together?"],
+        "responses": ["Guests having treatments can reunite again before their services start and after using the separate heat and water facilities, at the Co-Ed Tranquility Lounge. We also offer Couples Massage in which services are offered in the same treatment room. The Co-Ed Tranquility Lounge is reserved for guests receiving Spa treatments only and is not available to guests’ purchasing heat and water facility passes."]
+      },
+      {
+        "tag": "rare_steakhouse",
+        "patterns": ["Is Rare Steakhouse all about steak?"],
+        "responses": ["Rare Steakhouse is a captivating spot for both sea and land lovers. Fresh, local chilled shellfish, luxurious caviar, and day boat fish are served as starters or as the main course. Organic pan-roasted chicken and rack of lamb."]
+      },
+      {
+        "tag": "signature_dishes",
+        "patterns": ["What are the other signature ‘don’t miss’ dishes at Rare Steakhouse?"],
+        "responses": ["Ideal for sharing, the seafood spectacular is a celebration of Maine lobster, New England oysters, little neck clams, colossal shrimp, Alaskan king crab and seasonal crudo. Other popular appetizers include ‘Steakhouse Wedge’ baby iceberg, black pepper bacon, cherry tomato, buttermilk blue cheese, crispy shallots and the Jumbo Lump Crab Cake with Persian cucumbers, meyer lemon vinaigrette, spicy remoulade . The ‘ora king salmon’ with maple miso glazed, ginger bok choy, roasted shiitake mushrooms and charred scallions and the 'Seared Scallops' with celery root risotto, caviar beurre blanc are a lighter complement to the last half of the menu."]
+      },
+      {
+        "tag": "save_room_for_dessert",
+        "patterns": ["Should I save room for dessert?"],
+        "responses": ["Without question, even if you need to loosen your belt buckle. Choose the Apple Pecan Cheesecake with caramelized pecans, poached apples, caramel or Citrus Rum Baba with citrus soaked rum baba, exotic fruit compote, whipped white chocolate ganache, or Coffee Whiskey Cigar with Jameson Whiskey Cremieux, dried apricot crunch, vanilla ice cream. The best is truly saved for last."]
+      },
+      {
+        "tag": "cocktails",
+        "patterns": ["What about cocktails at Rare Steakhouse?"],
+        "responses": ["The specialty cocktail list complements the creatively classic fare served at Rare Steakhouse with beverages such as “Secret Cinema,” “Pink Moon” and “Buena Vista.” But surely the most popular drink here is the “Lion’s Share” which is a spicy mix of Casamigo Reposado Tequila, Ancho Reyes Verde, guava nectar, house infused habanero agave and fresh lime."]
+      },
+      {
+        "tag": "dress_code",
+        "patterns": ["What is the dress code at Rare Steakhouse?"],
+        "responses": ["Resort elegant. Dressy attire preferred: Open-toed shoes and tank tops for men are not permitted. Baseball caps, sweatpants, swim wear, sheer, transparent clothing and bare mid-riffs are not permitted for all. Children under 5 are not permitted."]
+      }
+    ]
+  }
