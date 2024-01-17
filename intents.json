@@ -94,6 +94,451 @@
         "tag": "dress_code",
         "patterns": ["What is the dress code at Rare Steakhouse?"],
         "responses": ["Resort elegant. Dressy attire preferred: Open-toed shoes and tank tops for men are not permitted. Baseball caps, sweatpants, swim wear, sheer, transparent clothing and bare mid-riffs are not permitted for all. Children under 5 are not permitted."]
+      },
+      {
+        "tag": "same_day_color",
+        "patterns": ["Can I make a hair color appointment the same day without consultation if I haven’t been there before?"],
+        "responses": ["A consultation and strand color test are always recommended as sometimes the expectations of a requested color can fall into a color correction category that may need more time and more sessions to achieve the desired result and at the same time maintain the health and integrity of your hair."]
+      },
+      {
+        "tag": "color_formula",
+        "patterns": ["Can I bring the color formula of my current stylist if I want my color done at Encore?"],
+        "responses": ["Absolutely. Please know we work with L’Oréal colors, and although we welcome guests coming requesting their existing formulas, we recommend you letting us know in advance so we can make sure we have it in stock."]
+      },
+      {
+        "tag": "on_deck_best_known",
+        "patterns": ["What is On Deck best known for?"],
+        "responses": ["On Deck features a mouthwatering menu highlighted with gourmet burgers and classic American home style favorites. Items such as The Patriot Burger or Beef Sliders are crafted with Linz Heritage Angus beef, while BBQ Chicken Chopped Salad, Fish and Chips, Pastrami Reuben and more round out the selection. Plus, a variety of craft beers, specialty cocktails and desserts all served under 33 75-inch televisions, makes On Deck one of the best places in Boston to watch a game."]
+      },
+      {
+        "tag": "on_deck_signature_dishes",
+        "patterns": ["What are the other signature ‘don’t miss’ dishes at On Deck?"],
+        "responses": ["The Lobster Roll with lightly dressed Maine lobster meat, lettuce, lemon aioli, toasted brioche roll and the Salmon Teriyaki Bowl with Jasmine rice, edamame, radish, carrots, cucumber, avocado, sesame, and teriyaki. The Waffle Bowl Sundae is the cherry on top of a delicious meal at On Deck."]
+      },
+      {
+        "tag": "on_deck_ambience",
+        "patterns": ["What is the ambience like at On Deck?"],
+        "responses": ["The comfortable atmosphere highlighted by mahogany wood and plaid carpeting features 33 75-inch TVs ensuring prime viewing of every inning, quarter or match from every seat. On Deck also offers a unique “living room” experience complete with a fireplace, and dedicated television that are available for gameday parties. Perched on the mezzanine balcony, On Deck also provides a birds-eye view of the excitement on the gaming floor below."]
+      },
+      {
+        "tag": "on_deck_beer_selection",
+        "patterns": ["What is the beer selection like at On Deck?"],
+        "responses": ["With 24 brews on tap and over a dozen canned beers, finding the perfect pairing to a meal is a sure thing at On Deck. The carefully chosen line-up has an option for all beer lovers, from the tried-and-true lagers and ales to local craft beers."]
+      },
+      {
+        "tag": "mystique_compdollars",
+        "patterns": ["Does Mystique accept COMPDOLLARS?"],
+        "responses": ["Mystique does accept COMPDOLLARS, but a discount is not offered for Platinum and Black Tier Wynn Rewards members."]
+      },
+      {
+        "tag": "mystique_kid_friendly",
+        "patterns": ["Is Mystique kid friendly?"],
+        "responses": ["Children under 5 are not permitted. Mystique is 21 or older starting at 8 p.m."]
+      },
+      {
+        "tag": "mystique_reservation",
+        "patterns": ["Do you need a reservation?"],
+        "responses": ["Reservations are not required but highly recommended."]
+      },
+      {
+        "tag": "big_night",
+        "patterns": ["Who/What is Big Night?"],
+        "responses": ["Mystique is operated by Big Night Entertainment Group. Big Night is a hospitality company that was founded in 2006 by visionary nightclub and hospitality owners Ed Kane, Joe Kane, and Randy Greenstein. Big Night Entertainment Group transforms hospitality and nightlife with destinations that transcend the status quo, including: Big Night Live, The Grand, Mystique, Mémoire, Empire, Guy Fieri’s Tequila Cocina, Red Lantern, Scorpion Bar, and VERSUS in Boston. Big Night Entertainment Group also owns and operates CBS Sporting Club and Scorpion Bar at Patriot Place in Foxboro, and Guy Fieri’s Kitchen & Bar, High Rollers, Red Lantern, Scorpion Bar, and Shrine in Connecticut. Visit bignight.com for more information or follow @BigNight on social for updates."]
+      },
+      {
+        "tag": "fratelli_best_known",
+        "patterns": ["What is Fratelli best known for?"],
+        "responses": ["Two friends met in Boston’s North End as friends and their Italian roots and passion for food brought them together as family. Both acclaimed Italian restaurateurs throughout Boston, they now come together to present Fratelli–a world-class Italian restaurant and unparalleled experience."]
+      },
+      {
+        "tag": "fratelli_other_than_pasta",
+        "patterns": ["What options does Fratelli have other than pasta?"],
+        "responses": ["Fratelli offers a full seafood raw bar including local oysters, Alaskan king crab legs, little neck clams, shrimp cocktail and tuna and salmon crudo. Fratelli also serves pizzas made with the freshest ingredients, “under the brick” chicken, veal and more."]
+      },
+      {
+        "tag": "fratelli_signature_dishes",
+        "patterns": ["What are other signature ‘don’t miss’ dishes at Fratelli?"],
+        "responses": ["The zucchini flowers are stuffed with goat cheese and lemon zest, lightly fried, served with tempura zucchini chips and a roasted garlic aioli. The lobster fra diavolo is made with whole Maine lobster, lobster fumet and colino cherry tomatoes, tossed with homemade linguini pasta. The Nerano, inspired from the Amalfi coast of Italy, is made with zucchini pasta, fresh zucchini, provolone del Monaco and finished with shaved parmigiano. Be sure to save room for the “tableside” tiramisu."]
+      },
+      {
+        "tag": "fratelli_cocktails",
+        "patterns": ["What about cocktails at Fratelli?"],
+        "responses": ["The most famous of all is the espresso martini, which was created in the North End of Boston. Fratelli has an extensive list of one-of-a-kind cocktails including “Pear of Brothers” (a twist on a pear martini), “Poker Face” (a version of a mule) and “Ciao Bella” (a play on an Old Fashioned). Also be sure to check out their vault selections on the wine list, consisting of extremely hard-to-find wines from Italy, France and California."]
+      },
+      {
+        "tag": "fratelli_late_night_menu",
+        "patterns": ["Does Fratelli have a late-night menu?"],
+        "responses": ["Fratelli offers its entire menu until 11:30 p.m. Sunday through Thursday and until 1:30 a.m. on Friday and Saturday. In addition to the dinner menu, Fratelli offers a Neapolitan-style pizza and calzone menu on Friday and Saturday nights from 11:30 p.m.–1:30 a.m."]
+      },
+      {
+        "tag": "wager_making",
+        "patterns": ["How can I make a wager?"],
+        "responses": ["We have 10 sports betting windows that will have live tellers in the sportsbook, and over 100 WynnBET Sports Kiosks throughout the casino."]
+      },
+      {
+        "tag": "wager_sportsbook_closed",
+        "patterns": ["Can I make a wager if the sportsbook is closed?"],
+        "responses": ["Yes, select WynnBET Sports Kiosks are open 24/7."]
+      },
+      {
+        "tag": "wager_types",
+        "patterns": ["What types of wagers do you take?"],
+        "responses": ["We offer a wide variety of wagering opportunities such as straight bets, parlays, teasers, round robins and more."]
+      },
+      {
+        "tag": "wager_cash_ticket",
+        "patterns": ["Where can I cash a ticket?"],
+        "responses": ["During the hours of 9 a.m.–12 a.m. Tickets can be redeemed at the sportsbook."]
+      },
+      {
+        "tag": "wager_cash_ticket_sportsbook_closed",
+        "patterns": ["Can I cash a ticket if the sportsbook is closed?"],
+        "responses": ["Yes, you may redeem a ticket at the Main Cage when the sportsbook is closed."]
+      },
+      {
+        "tag": "wager_voucher",
+        "patterns": ["I have a sports betting voucher, what do I do with it?"],
+        "responses": ["Vouchers may be used at either the sportsbook or a WynnBET Sports Kiosks to place another wager, Vouchers may also be redeemed at the sportsbook or the Main Cage if the sportsbook is closed."]
+      },
+      {
+        "tag": "wager_sports",
+        "patterns": ["What sports can I wager on?"],
+        "responses": ["Guests can wager on all major sporting events. Guests can see a sportsbook representative, visit a WynnBET Sports Kiosk or download the WynnBET app to view the full menu of available events."]
+      },
+      {
+        "tag": "wager_college_sports",
+        "patterns": ["Can I bet on college sports?"],
+        "responses": ["Yes, but we do not accept wagers on any collegiate teams from the Commonwealth of Massachusetts, unless the team is involved in a collegiate tournament."]
+      },
+      {
+        "tag": "wager_minimum_age",
+        "patterns": ["What is the minimum age to wager?"],
+        "responses": ["Guests must be 21 years of age to enter the casino or place a wager."]
+      },
+      {
+        "tag": "wager_cashing_time",
+        "patterns": ["How long do I have to cash a winning ticket?"],
+        "responses": ["Tickets are void one year after the date of the event."]
+      },
+      {
+        "tag": "wager_change",
+        "patterns": ["Can I change my wager?"],
+        "responses": ["All kiosk wagers are final. Wagers made at the sportsbook will be up to management's discretion before the event is locked out, after that time no changes can be made to a ticket."]
+      },
+      {
+        "tag": "wager_winning",
+        "patterns": ["How do I know if I won my wager?"],
+        "responses": ["Guests can scan a ticket at one of the WynnBET Sports Kiosks or bring it to a cashier at the sportsbook to check it."]
+      },
+      {
+        "tag": "wager_mail_ticket",
+        "patterns": ["Can I mail my ticket in?"],
+        "responses": ["At this time, we do not accept mail in tickets."]
+      },
+      {
+        "tag": "wager_wynnbet_odds",
+        "patterns": ["Where can I see WynnBET odds?"],
+        "responses": ["Odds will be posted in the sportsbook and at the kiosks. Guests can also download the WynnBET app to view odds."]
+      },
+      {
+        "tag": "watch_game_location",
+        "patterns": ["Where can I watch my game?"],
+        "responses": ["Guests can watch the game at WynnBET Sportsbook and throughout the casino. Select dining venues will also play specific games."]
+      },
+      {
+        "tag": "wynn_rewards_signup",
+        "patterns": ["Where can I sign up for a Wynn Rewards account?"],
+        "responses": ["Wynn Rewards kiosks are located throughout the casino, guests can also visit one of the three Wynn Rewards locations in the casino to sign up during available hours."]
+      },
+      {
+        "tag": "wager_payment_methods",
+        "patterns": ["What forms of payment are accepted to make a wager?"],
+        "responses": ["Wagers can be placed by cash only. ATMs are located at the Casino West."]
+      },
+      {
+        "tag": "wager_chip_usage",
+        "patterns": ["Can I wager with chips?"],
+        "responses": ["We do not accept wagers with chips. The chips would need to be redeemed at the Main Cage for cash."]
+      },
+      {
+        "tag": "poker_room_location",
+        "patterns": ["Where is the poker room located?"],
+        "responses": ["The poker room is located in the center section of The Loft, on the second floor mezzanine level."]
+      },
+      {
+        "tag": "poker_room_hours",
+        "patterns": ["What are the hours of operation?"],
+        "responses": ["The poker room is open 24 hours daily."]
+      },
+      {
+        "tag": "poker_room_parking",
+        "patterns": ["Where should I park for easy access to the poker room?"],
+        "responses": ["For easiest access to our Poker Room, park at the Casino North entrance and take the elevator to the mezzanine level."]
+      },
+      {
+        "tag": "premier_double_occupancy",
+        "patterns": ["How many guests can be accommodated within the Premier Double room?"],
+        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests."]
+      },
+      {
+        "tag": "premier_harbor_view_king_occupancy",
+        "patterns": ["How many guests can be accommodated within the Premier Harbor View King room?"],
+        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request."]
+      },
+      {
+        "tag": "signature_suite_occupancy",
+        "patterns": ["How many guests can be accommodated within the Signature Suite?"],
+        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
+      },
+      {
+        "tag": "signature_harbor_view_suite_occupancy",
+        "patterns": ["How many guests can be accommodated within the Signature Harbor View Suite?"],
+        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
+      },
+      {
+        "tag": "two_bedroom_residence_occupancy",
+        "patterns": ["How many guests can be accommodated within the Two-Bedroom Residence?"],
+        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
+      },
+      {
+        "tag": "alexa",
+        "patterns": [
+          "What amenities does the guestroom come with?",
+          "Tell me about the voice-controlled personal assistant in the guestroom."
+        ],
+        "responses": [
+          "As one of the amenities you may wish to enjoy during your stay at Encore, your guestroom comes equipped with Alexa, your voice-controlled personal assistant. You may ask Alexa any questions you may have about Encore and to adjust your room settings such as temperature, lights and drape controls."
+        ]
+      },
+      {
+        "tag": "bell_desk",
+        "patterns": [
+          "How can the bell staff assist me?",
+          "Tell me about the services provided by the bell desk."
+        ],
+        "responses": [
+          "Our bell staff can assist with luggage transportation, wheelchair and scooter rentals. Please call +1 (857) 770-4300 for Bell Services."
+        ]
+      },
+      {
+        "tag": "business_center",
+        "patterns": [
+          "What services are offered at the Business Center?",
+          "Tell me about the Business Center's hours of operation."
+        ],
+        "responses": [
+          "The Business Center is open daily 8 a.m.–12 a.m. Services we offer include internet access, printing, copying, package shipping and mail receiving and equipment rentals. There are fees associated with services and are subject to change. Click here for pricing and contact information."
+        ]
+      },
+      {
+        "tag": "check_out",
+        "patterns": [
+          "What time is the checkout?",
+          "How can I check out of my room?"
+        ],
+        "responses": [
+          "Checkout time is at 11 a.m. You may check out via your in-room iPad, by calling the Front Desk at +1 (857) 770-4000, or by simply dropping your guestroom keys in the Express Checkout box located in Resort Registration."
+        ]
+      },
+      {
+        "tag": "concierge",
+        "patterns": [
+          "Tell me about the Concierge team.",
+          "How can the Concierge assist me during my stay?"
+        ],
+        "responses": [
+          "The Concierge team at Encore Boston Harbor is available to assist before and during your stay to create a memorable experience. From transportation options, choice tables at our restaurants, sporting and event tickets and recommendations on sightseeing tours, our world-class Concierge team is ready to take care of every detail. Concierge service is available Sunday through Wednesday from 11 a.m.–6 p.m. and Thursday through Saturday from 10 a.m.–9 p.m. To contact the concierge, please call +1 (857) 770-7070 or e-mail conciergeservices@encorebostonharbor.com. We will respond to requests within 24 hours."
+        ]
+      },
+      {
+        "tag": "fitness_center",
+        "patterns": [
+          "Where is the Fitness Center located?",
+          "What are the hours of operation for the Fitness Center?"
+        ],
+        "responses": [
+          "The Fitness Center is located on the Spa level on the third floor which you can get to by pressing the spa button in the elevator. Private personal sessions are available by request and appointment. Please call us if you have any questions +1 (857) 770-3900. Click here for current hours of operation."
+        ]
+      },
+      {
+        "tag": "guest_feedback",
+        "patterns": [
+          "How can I provide feedback about my stay?",
+          "Tell me about the feedback submission process."
+        ],
+        "responses": [
+          "We would love to hear from you. To submit feedback e-mail guest.comments@encorebostonharbor.com or fill out a comment card located at the Main Registration desk."
+        ]
+      },
+      {
+        "tag": "housekeeping_services",
+        "patterns": [
+          "How can I request housekeeping services?",
+          "Tell me about the housekeeping contact details."
+        ],
+        "responses": [
+          "Please call Encore Housekeeping at +1 (857) 770-4400 to request to have your room cleaned or for requests such as extra towels, pillows, blankets, soaps, lotions, etc."
+        ]
+      },
+      {
+        "tag": "lost_and_found",
+        "patterns": [
+          "How can I retrieve a lost item?",
+          "Tell me about the Lost and Found services."
+        ],
+        "responses": [
+          "Lost and Found is open daily from 8 a.m.–12 a.m. and may be reached at +1 (857) 770-4330. To report a lost item, click here."
+        ]
+      },
+      {
+        "tag": "maintenance_services",
+        "patterns": [
+          "What should I do for maintenance issues?",
+          "How can I request maintenance services?"
+        ],
+        "responses": [
+          "For maintenance issues, please press the guest services button on your room phone."
+        ]
+      },
+      {
+        "tag": "room_bill",
+        "patterns": [
+          "How can I view my room bill?",
+          "Tell me about the room bill viewing process."
+        ],
+        "responses": [
+          "You can view your bill on your in-room iPad or have a copy printed for you at the Front Desk. For more information, please call the Front Desk at +1 (857) 770-4000."
+        ]
+      },
+      {
+        "tag": "smoking",
+        "patterns": [
+          "Is smoking allowed in the guestrooms?",
+          "Tell me about the smoking policy."
+        ],
+        "responses": [
+          "There is a $500 deep cleaning fee charged for smoking in a designated non-smoking room. Smoking areas can be found outdoors. Cannabis products are prohibited in guest rooms and throughout the resort."
+        ]
+      },
+      {
+        "tag": "telephone_charges",
+        "patterns": [
+          "How are telephone charges handled?",
+          "Tell me about the charges for telephone calls."
+        ],
+        "responses": [
+          "Local and domestic long-distance calls are free as well as toll-free calls (800, 833, 844, 855, 866, 877 and 888 prefixes): Direct-Dialed Long-Distance and International Calls: All calls will be charged AT&T operator-assisted daytime rates."
+        ]
+      },
+      {
+        "tag": "wifi",
+        "patterns": [
+          "Is WiFi available in the guestrooms?",
+          "Tell me about the WiFi services."
+        ],
+        "responses": [
+          "WiFi is free up to 7 MB per minute. Higher speed upgrade is available for $9.99 per device, per day. To log on, please provide your last name and room number."
+        ]
+      },
+      {
+        "tag": "dress_code_casual_dining",
+        "patterns": [
+          "What is the dress code for casual dining?",
+          "Can I wear swimwear in casual dining areas?"
+        ],
+        "responses": [
+          "Open-toed shoes, sleeveless shirts, mid-riffs, and baseball caps are permitted. Swimwear and sheer, transparent clothing are not permitted."
+        ]
+      },
+      {
+        "tag": "dress_code_fine_dining",
+        "patterns": [
+          "What is the dress code for fine dining?",
+          "Are open-toed shoes allowed in fine dining?"
+        ],
+        "responses": [
+          "Dressy attire is preferred. Open-toed shoes and tank tops for men are not permitted. Baseball caps, sweatpants, swimwear, sheer, transparent clothing, and bare mid-riffs are not permitted for all."
+        ]
+      },
+      {
+        "tag": "restaurant_menus",
+        "patterns": [
+          "How can I view the restaurant menus?",
+          "Where can I find the menus for the restaurants?"
+        ],
+        "responses": [
+          "To view our restaurant menus, visit encorebostonharbor.com/dining-and-nightlife."
+        ]
+      },
+      {
+        "tag": "restaurant_reservations",
+        "patterns": [
+          "Are reservations accepted for the restaurants?",
+          "How can I make restaurant reservations?"
+        ],
+        "responses": [
+          "Reservations are accepted and recommended at Rare Steakhouse, Red 8, Mystique, and Fratelli. Reservations can be made anytime online. You will receive a confirmation text or e-mail once your reservation is confirmed."
+        ]
+      },
+      {
+        "tag": "vegetarian_and_vegan_food",
+        "patterns": [
+          "Does Encore Boston Harbor offer vegetarian and vegan options?",
+          "Tell me about vegan and vegetarian selections at Encore Boston Harbor."
+        ],
+        "responses": [
+          "Encore Boston Harbor offers vegan and vegetarian selections that are designed and prepared with the same care and attention as any of the signature items served. These deliciously satisfying dishes have been prepared with wholesome, plant-based food prepared in ways that enhance the flavor of each component."
+        ]
+      },
+      {
+        "tag": "rare_steakhouse",
+        "patterns": [
+          "Tell me about Rare Steakhouse.",
+          "How can I make a reservation at Rare Steakhouse?"
+        ],
+        "responses": [
+          "In this elegant dining room with stunning views overlooking the Harborwalk and Mystic River, the steakhouse experience is redefined with creative classics and exceptional cuts. Rare features the most uniquely curated steak program in New England, including exclusive Japanese cuts from Kobe and the Kagoshima prefecture, as well as the best of domestic beef from Snake River Farms, Idaho, and our partners at La Frieda Meats. To make a reservation, view hours of operation and the restaurant menu, please click here."
+        ]
+      },
+      {
+        "tag": "red_8",
+        "patterns": [
+          "Tell me about Red 8.",
+          "How can I make a reservation at Red 8?"
+        ],
+        "responses": [
+          "Red 8’s diverse menu masterfully blends the flavors of China with Western technique to create singularly delicious cuisine. Along with Cantonese and dim sum classics, you’ll find flavors of Shanghai and Sichuan as well as our decadent Peking-style Duck or Ginger-Scallion Steamed Fish. To make a reservation, view hours of operation and the restaurant menu, please click here."
+        ]
+      },
+      {
+        "tag": "cheese_meet_wine",
+        "patterns": [
+          "Tell me about Cheese Meet Wine.",
+          "Is Cheese Meet Wine a walk-in only restaurant?"
+        ],
+        "responses": [
+          "Visit Cheese Meet Wine for pairings of charcuterie favorites and delectable wines. Enjoy imported and domestic carved-to-order meats, fresh soft and hard cheeses, sandwiches, soups, and a curated wine list comprised of grapes from around the globe. Try something new or savor the familiar during your next visit, located next to Wynn Sports. To view hours of operation and the restaurant menu, please click here. Walk-ins only."
+        ]
+      },
+      {
+        "tag": "on_deck",
+        "patterns": [
+          "Tell me about On Deck.",
+          "What's offered at On Deck?"
+        ],
+        "responses": [
+          "Classic American sports bar favorites and comfort food come together with panoramic views of the gaming floor. The action down on the tables might end up stealing your attention during the 7th inning stretch. To view hours of operation and the restaurant menu, please click here. Walk-ins only."
+        ]
+      },
+      {
+        "tag": "night_shift_brewing",
+        "patterns": [
+          "Tell me about Night Shift Brewing Kitchen & Tap.",
+          "What kind of beers does Night Shift Brewing offer?"
+        ],
+        "responses": [
+          "Night Shift Brewing Kitchen & Tap features an extensive list of Night Shift Brewing's locally crafted beers. Over the last decade, Night Shift Brewing, started by a trio of college friends with a shared passion for homebrewing, gained fame for its high-quality craftsmanship and strong community ties. This popular craft brewer is loved by locals. The beverage menu includes more than 20 beers on tap and a wide selection of canned beers and seltzers, including Night Shift Brewing favorites. This collaborative restaurant and bar conveys natural synergies through every sip and every bite. Made especially for Encore Boston Harbor, don’t miss house beer, Local Luck IPA. To view hours of operation and the menu, please click here. Walk-ins only."
+        ]
       }
     ]
   }
