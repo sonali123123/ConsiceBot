@@ -1,544 +1,1777 @@
 {
-    "intents": [
-      {
-        "tag": "reservation",
-        "patterns": ["How can I make a reservation?"],
-        "responses": ["To make an appointment, please call The Spa at (857) 770-3900 or click here."]
-      },
-      {
-        "tag": "walk-ins",
-        "patterns": ["Are walk-ins allowed?"],
-        "responses": ["Reservations are recommended but walk-in reservations are available; treatment accommodations are based on availability. An appointment can be made at The Spa reception desk, or by calling our reservations line at (857) 770-3900 in advance."]
-      },
-      {
-        "tag": "location",
-        "patterns": ["Where is The Spa located within the property? Are there parking options available?"],
-        "responses": ["The Spa at Encore Boston Harbor is located on the third floor. Utilize the hotel elevators to access the spa level. Yes, you can opt to use self-parking or you can valet your car. For more parking information, please click here. If you opt to self-park, we recommend using the Resort South or Resort East entrances as they are closest to the hotel elevators."]
-      },
-      {
-        "tag": "cancel_appointment",
-        "patterns": ["I need to cancel an appointment, how can I do so?"],
-        "responses": ["Please call The Spa directly at (857) 770-3900 to cancel or reschedule your appointment. As a courtesy to all, we ask our guests to kindly give a 24 hours’ notice if you need to cancel or change your appointment to avoid the 50% cancellation fee. For cancellations with less than 6 hours and no-show notification, guests will be charged 100% of the treatment fee."]
-      },
-      {
-        "tag": "phone_usage",
-        "patterns": ["Can I use my phone or iPad once entered The Spa?"],
-        "responses": ["We strive to provide our guests with a tranquil and private escape from the outside world. Please help us by turning off cell phones, personal electronic devices and cameras upon entering The Spa or The Salon."]
-      },
-      {
-        "tag": "early_arrival",
-        "patterns": ["How early can I come to The Spa for my appointment?"],
-        "responses": ["For The Spa please arrive 45 minutes prior to the start of your scheduled appointment to allow yourself time to shower and take advantage of using the relaxation lounge and the heat and water facilities. To provide ample relaxation time to all our guests receiving treatments, heat and water facilities are available only a maximum of one hour prior to the treatments and not to be used afterwards. For The Salon, please arrive five minutes prior to the start of your scheduled appointment. Late arrivals will be subject to reduced treatment times."]
-      },
-      {
-        "tag": "compdollars_usage",
-        "patterns": ["Can I use my COMPDOLLARS at The Spa or The Salon?"],
-        "responses": ["We accept COMPDOLLARS for all Spa and Salon services and retail. COMPDOLLARS cannot be used towards gratuities."]
-      },
-      {
-        "tag": "age_requirement",
-        "patterns": ["What age do I have to be to use The Spa?"],
-        "responses": ["You must be 18 years of age or older to use The Spa."]
-      },
-      {
-        "tag": "attire",
-        "patterns": ["What do I wear at The Spa? Is a bathing suit required to use the heat and water facilities?"],
-        "responses": ["Robes and slippers are provided for your convenience. Professional draping is performed throughout your treatment. A bathing suit is required to use the heat and water facilities."]
-      },
-      {
-        "tag": "facility_usage",
-        "patterns": ["Can I use The Spa heat and water facilities if I have Salon services?"],
-        "responses": ["The heat and water facilities are included only for guests having Spa services and are not included for guests having Salon services."]
-      },
-      {
-        "tag": "non_resort_guests",
-        "patterns": ["Can I use The Spa if I am not staying at Encore Boston Harbor?"],
-        "responses": ["Yes. The Spa and The Salon are available for non-resort guests to make reservations."]
-      },
-      {
-        "tag": "allergies",
-        "patterns": ["What if I’m allergic to certain products?"],
-        "responses": ["Please advise us of any allergies so that we may use products that are appropriate for you."]
-      },
-      {
-        "tag": "pregnancy_services",
-        "patterns": ["What services can I do if I’m pregnant?"],
-        "responses": ["There are options for our mothers-to-be, please consult with one of our reservation specialists to book your appointments. Please be advised pre-natal body treatments are contraindicated during the first trimester, however facial options as well as manicure and pedicures would be available."]
-      },
-      {
-        "tag": "coed_areas",
-        "patterns": ["Are there any areas in the Spa where ladies and gentlemen can be together?"],
-        "responses": ["Guests having treatments can reunite again before their services start and after using the separate heat and water facilities, at the Co-Ed Tranquility Lounge. We also offer Couples Massage in which services are offered in the same treatment room. The Co-Ed Tranquility Lounge is reserved for guests receiving Spa treatments only and is not available to guests’ purchasing heat and water facility passes."]
-      },
-      {
-        "tag": "rare_steakhouse",
-        "patterns": ["Is Rare Steakhouse all about steak?"],
-        "responses": ["Rare Steakhouse is a captivating spot for both sea and land lovers. Fresh, local chilled shellfish, luxurious caviar, and day boat fish are served as starters or as the main course. Organic pan-roasted chicken and rack of lamb."]
-      },
-      {
-        "tag": "signature_dishes",
-        "patterns": ["What are the other signature ‘don’t miss’ dishes at Rare Steakhouse?"],
-        "responses": ["Ideal for sharing, the seafood spectacular is a celebration of Maine lobster, New England oysters, little neck clams, colossal shrimp, Alaskan king crab and seasonal crudo. Other popular appetizers include ‘Steakhouse Wedge’ baby iceberg, black pepper bacon, cherry tomato, buttermilk blue cheese, crispy shallots and the Jumbo Lump Crab Cake with Persian cucumbers, meyer lemon vinaigrette, spicy remoulade . The ‘ora king salmon’ with maple miso glazed, ginger bok choy, roasted shiitake mushrooms and charred scallions and the 'Seared Scallops' with celery root risotto, caviar beurre blanc are a lighter complement to the last half of the menu."]
-      },
-      {
-        "tag": "save_room_for_dessert",
-        "patterns": ["Should I save room for dessert?"],
-        "responses": ["Without question, even if you need to loosen your belt buckle. Choose the Apple Pecan Cheesecake with caramelized pecans, poached apples, caramel or Citrus Rum Baba with citrus soaked rum baba, exotic fruit compote, whipped white chocolate ganache, or Coffee Whiskey Cigar with Jameson Whiskey Cremieux, dried apricot crunch, vanilla ice cream. The best is truly saved for last."]
-      },
-      {
-        "tag": "cocktails",
-        "patterns": ["What about cocktails at Rare Steakhouse?"],
-        "responses": ["The specialty cocktail list complements the creatively classic fare served at Rare Steakhouse with beverages such as “Secret Cinema,” “Pink Moon” and “Buena Vista.” But surely the most popular drink here is the “Lion’s Share” which is a spicy mix of Casamigo Reposado Tequila, Ancho Reyes Verde, guava nectar, house infused habanero agave and fresh lime."]
-      },
-      {
-        "tag": "dress_code",
-        "patterns": ["What is the dress code at Rare Steakhouse?"],
-        "responses": ["Resort elegant. Dressy attire preferred: Open-toed shoes and tank tops for men are not permitted. Baseball caps, sweatpants, swim wear, sheer, transparent clothing and bare mid-riffs are not permitted for all. Children under 5 are not permitted."]
-      },
-      {
-        "tag": "same_day_color",
-        "patterns": ["Can I make a hair color appointment the same day without consultation if I haven’t been there before?"],
-        "responses": ["A consultation and strand color test are always recommended as sometimes the expectations of a requested color can fall into a color correction category that may need more time and more sessions to achieve the desired result and at the same time maintain the health and integrity of your hair."]
-      },
-      {
-        "tag": "color_formula",
-        "patterns": ["Can I bring the color formula of my current stylist if I want my color done at Encore?"],
-        "responses": ["Absolutely. Please know we work with L’Oréal colors, and although we welcome guests coming requesting their existing formulas, we recommend you letting us know in advance so we can make sure we have it in stock."]
-      },
-      {
-        "tag": "on_deck_best_known",
-        "patterns": ["What is On Deck best known for?"],
-        "responses": ["On Deck features a mouthwatering menu highlighted with gourmet burgers and classic American home style favorites. Items such as The Patriot Burger or Beef Sliders are crafted with Linz Heritage Angus beef, while BBQ Chicken Chopped Salad, Fish and Chips, Pastrami Reuben and more round out the selection. Plus, a variety of craft beers, specialty cocktails and desserts all served under 33 75-inch televisions, makes On Deck one of the best places in Boston to watch a game."]
-      },
-      {
-        "tag": "on_deck_signature_dishes",
-        "patterns": ["What are the other signature ‘don’t miss’ dishes at On Deck?"],
-        "responses": ["The Lobster Roll with lightly dressed Maine lobster meat, lettuce, lemon aioli, toasted brioche roll and the Salmon Teriyaki Bowl with Jasmine rice, edamame, radish, carrots, cucumber, avocado, sesame, and teriyaki. The Waffle Bowl Sundae is the cherry on top of a delicious meal at On Deck."]
-      },
-      {
-        "tag": "on_deck_ambience",
-        "patterns": ["What is the ambience like at On Deck?"],
-        "responses": ["The comfortable atmosphere highlighted by mahogany wood and plaid carpeting features 33 75-inch TVs ensuring prime viewing of every inning, quarter or match from every seat. On Deck also offers a unique “living room” experience complete with a fireplace, and dedicated television that are available for gameday parties. Perched on the mezzanine balcony, On Deck also provides a birds-eye view of the excitement on the gaming floor below."]
-      },
-      {
-        "tag": "on_deck_beer_selection",
-        "patterns": ["What is the beer selection like at On Deck?"],
-        "responses": ["With 24 brews on tap and over a dozen canned beers, finding the perfect pairing to a meal is a sure thing at On Deck. The carefully chosen line-up has an option for all beer lovers, from the tried-and-true lagers and ales to local craft beers."]
-      },
-      {
-        "tag": "mystique_compdollars",
-        "patterns": ["Does Mystique accept COMPDOLLARS?"],
-        "responses": ["Mystique does accept COMPDOLLARS, but a discount is not offered for Platinum and Black Tier Wynn Rewards members."]
-      },
-      {
-        "tag": "mystique_kid_friendly",
-        "patterns": ["Is Mystique kid friendly?"],
-        "responses": ["Children under 5 are not permitted. Mystique is 21 or older starting at 8 p.m."]
-      },
-      {
-        "tag": "mystique_reservation",
-        "patterns": ["Do you need a reservation?"],
-        "responses": ["Reservations are not required but highly recommended."]
-      },
-      {
-        "tag": "big_night",
-        "patterns": ["Who/What is Big Night?"],
-        "responses": ["Mystique is operated by Big Night Entertainment Group. Big Night is a hospitality company that was founded in 2006 by visionary nightclub and hospitality owners Ed Kane, Joe Kane, and Randy Greenstein. Big Night Entertainment Group transforms hospitality and nightlife with destinations that transcend the status quo, including: Big Night Live, The Grand, Mystique, Mémoire, Empire, Guy Fieri’s Tequila Cocina, Red Lantern, Scorpion Bar, and VERSUS in Boston. Big Night Entertainment Group also owns and operates CBS Sporting Club and Scorpion Bar at Patriot Place in Foxboro, and Guy Fieri’s Kitchen & Bar, High Rollers, Red Lantern, Scorpion Bar, and Shrine in Connecticut. Visit bignight.com for more information or follow @BigNight on social for updates."]
-      },
-      {
-        "tag": "fratelli_best_known",
-        "patterns": ["What is Fratelli best known for?"],
-        "responses": ["Two friends met in Boston’s North End as friends and their Italian roots and passion for food brought them together as family. Both acclaimed Italian restaurateurs throughout Boston, they now come together to present Fratelli–a world-class Italian restaurant and unparalleled experience."]
-      },
-      {
-        "tag": "fratelli_other_than_pasta",
-        "patterns": ["What options does Fratelli have other than pasta?"],
-        "responses": ["Fratelli offers a full seafood raw bar including local oysters, Alaskan king crab legs, little neck clams, shrimp cocktail and tuna and salmon crudo. Fratelli also serves pizzas made with the freshest ingredients, “under the brick” chicken, veal and more."]
-      },
-      {
-        "tag": "fratelli_signature_dishes",
-        "patterns": ["What are other signature ‘don’t miss’ dishes at Fratelli?"],
-        "responses": ["The zucchini flowers are stuffed with goat cheese and lemon zest, lightly fried, served with tempura zucchini chips and a roasted garlic aioli. The lobster fra diavolo is made with whole Maine lobster, lobster fumet and colino cherry tomatoes, tossed with homemade linguini pasta. The Nerano, inspired from the Amalfi coast of Italy, is made with zucchini pasta, fresh zucchini, provolone del Monaco and finished with shaved parmigiano. Be sure to save room for the “tableside” tiramisu."]
-      },
-      {
-        "tag": "fratelli_cocktails",
-        "patterns": ["What about cocktails at Fratelli?"],
-        "responses": ["The most famous of all is the espresso martini, which was created in the North End of Boston. Fratelli has an extensive list of one-of-a-kind cocktails including “Pear of Brothers” (a twist on a pear martini), “Poker Face” (a version of a mule) and “Ciao Bella” (a play on an Old Fashioned). Also be sure to check out their vault selections on the wine list, consisting of extremely hard-to-find wines from Italy, France and California."]
-      },
-      {
-        "tag": "fratelli_late_night_menu",
-        "patterns": ["Does Fratelli have a late-night menu?"],
-        "responses": ["Fratelli offers its entire menu until 11:30 p.m. Sunday through Thursday and until 1:30 a.m. on Friday and Saturday. In addition to the dinner menu, Fratelli offers a Neapolitan-style pizza and calzone menu on Friday and Saturday nights from 11:30 p.m.–1:30 a.m."]
-      },
-      {
-        "tag": "wager_making",
-        "patterns": ["How can I make a wager?"],
-        "responses": ["We have 10 sports betting windows that will have live tellers in the sportsbook, and over 100 WynnBET Sports Kiosks throughout the casino."]
-      },
-      {
-        "tag": "wager_sportsbook_closed",
-        "patterns": ["Can I make a wager if the sportsbook is closed?"],
-        "responses": ["Yes, select WynnBET Sports Kiosks are open 24/7."]
-      },
-      {
-        "tag": "wager_types",
-        "patterns": ["What types of wagers do you take?"],
-        "responses": ["We offer a wide variety of wagering opportunities such as straight bets, parlays, teasers, round robins and more."]
-      },
-      {
-        "tag": "wager_cash_ticket",
-        "patterns": ["Where can I cash a ticket?"],
-        "responses": ["During the hours of 9 a.m.–12 a.m. Tickets can be redeemed at the sportsbook."]
-      },
-      {
-        "tag": "wager_cash_ticket_sportsbook_closed",
-        "patterns": ["Can I cash a ticket if the sportsbook is closed?"],
-        "responses": ["Yes, you may redeem a ticket at the Main Cage when the sportsbook is closed."]
-      },
-      {
-        "tag": "wager_voucher",
-        "patterns": ["I have a sports betting voucher, what do I do with it?"],
-        "responses": ["Vouchers may be used at either the sportsbook or a WynnBET Sports Kiosks to place another wager, Vouchers may also be redeemed at the sportsbook or the Main Cage if the sportsbook is closed."]
-      },
-      {
-        "tag": "wager_sports",
-        "patterns": ["What sports can I wager on?"],
-        "responses": ["Guests can wager on all major sporting events. Guests can see a sportsbook representative, visit a WynnBET Sports Kiosk or download the WynnBET app to view the full menu of available events."]
-      },
-      {
-        "tag": "wager_college_sports",
-        "patterns": ["Can I bet on college sports?"],
-        "responses": ["Yes, but we do not accept wagers on any collegiate teams from the Commonwealth of Massachusetts, unless the team is involved in a collegiate tournament."]
-      },
-      {
-        "tag": "wager_minimum_age",
-        "patterns": ["What is the minimum age to wager?"],
-        "responses": ["Guests must be 21 years of age to enter the casino or place a wager."]
-      },
-      {
-        "tag": "wager_cashing_time",
-        "patterns": ["How long do I have to cash a winning ticket?"],
-        "responses": ["Tickets are void one year after the date of the event."]
-      },
-      {
-        "tag": "wager_change",
-        "patterns": ["Can I change my wager?"],
-        "responses": ["All kiosk wagers are final. Wagers made at the sportsbook will be up to management's discretion before the event is locked out, after that time no changes can be made to a ticket."]
-      },
-      {
-        "tag": "wager_winning",
-        "patterns": ["How do I know if I won my wager?"],
-        "responses": ["Guests can scan a ticket at one of the WynnBET Sports Kiosks or bring it to a cashier at the sportsbook to check it."]
-      },
-      {
-        "tag": "wager_mail_ticket",
-        "patterns": ["Can I mail my ticket in?"],
-        "responses": ["At this time, we do not accept mail in tickets."]
-      },
-      {
-        "tag": "wager_wynnbet_odds",
-        "patterns": ["Where can I see WynnBET odds?"],
-        "responses": ["Odds will be posted in the sportsbook and at the kiosks. Guests can also download the WynnBET app to view odds."]
-      },
-      {
-        "tag": "watch_game_location",
-        "patterns": ["Where can I watch my game?"],
-        "responses": ["Guests can watch the game at WynnBET Sportsbook and throughout the casino. Select dining venues will also play specific games."]
-      },
-      {
-        "tag": "wynn_rewards_signup",
-        "patterns": ["Where can I sign up for a Wynn Rewards account?"],
-        "responses": ["Wynn Rewards kiosks are located throughout the casino, guests can also visit one of the three Wynn Rewards locations in the casino to sign up during available hours."]
-      },
-      {
-        "tag": "wager_payment_methods",
-        "patterns": ["What forms of payment are accepted to make a wager?"],
-        "responses": ["Wagers can be placed by cash only. ATMs are located at the Casino West."]
-      },
-      {
-        "tag": "wager_chip_usage",
-        "patterns": ["Can I wager with chips?"],
-        "responses": ["We do not accept wagers with chips. The chips would need to be redeemed at the Main Cage for cash."]
-      },
-      {
-        "tag": "poker_room_location",
-        "patterns": ["Where is the poker room located?"],
-        "responses": ["The poker room is located in the center section of The Loft, on the second floor mezzanine level."]
-      },
-      {
-        "tag": "poker_room_hours",
-        "patterns": ["What are the hours of operation?"],
-        "responses": ["The poker room is open 24 hours daily."]
-      },
-      {
-        "tag": "poker_room_parking",
-        "patterns": ["Where should I park for easy access to the poker room?"],
-        "responses": ["For easiest access to our Poker Room, park at the Casino North entrance and take the elevator to the mezzanine level."]
-      },
-      {
-        "tag": "premier_double_occupancy",
-        "patterns": ["How many guests can be accommodated within the Premier Double room?"],
-        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests."]
-      },
-      {
-        "tag": "premier_harbor_view_king_occupancy",
-        "patterns": ["How many guests can be accommodated within the Premier Harbor View King room?"],
-        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request."]
-      },
-      {
-        "tag": "signature_suite_occupancy",
-        "patterns": ["How many guests can be accommodated within the Signature Suite?"],
-        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
-      },
-      {
-        "tag": "signature_harbor_view_suite_occupancy",
-        "patterns": ["How many guests can be accommodated within the Signature Harbor View Suite?"],
-        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
-      },
-      {
-        "tag": "two_bedroom_residence_occupancy",
-        "patterns": ["How many guests can be accommodated within the Two-Bedroom Residence?"],
-        "responses": ["Encore Boston Harbor limits occupancy in this room to a maximum of four (4) guests. Rollaway beds are available upon request for an additional charge."]
-      },
-      {
-        "tag": "alexa",
-        "patterns": [
-          "What amenities does the guestroom come with?",
-          "Tell me about the voice-controlled personal assistant in the guestroom."
-        ],
-        "responses": [
-          "As one of the amenities you may wish to enjoy during your stay at Encore, your guestroom comes equipped with Alexa, your voice-controlled personal assistant. You may ask Alexa any questions you may have about Encore and to adjust your room settings such as temperature, lights and drape controls."
-        ]
-      },
-      {
-        "tag": "bell_desk",
-        "patterns": [
-          "How can the bell staff assist me?",
-          "Tell me about the services provided by the bell desk."
-        ],
-        "responses": [
-          "Our bell staff can assist with luggage transportation, wheelchair and scooter rentals. Please call +1 (857) 770-4300 for Bell Services."
-        ]
-      },
-      {
-        "tag": "business_center",
-        "patterns": [
-          "What services are offered at the Business Center?",
-          "Tell me about the Business Center's hours of operation."
-        ],
-        "responses": [
-          "The Business Center is open daily 8 a.m.–12 a.m. Services we offer include internet access, printing, copying, package shipping and mail receiving and equipment rentals. There are fees associated with services and are subject to change. Click here for pricing and contact information."
-        ]
-      },
-      {
-        "tag": "check_out",
-        "patterns": [
-          "What time is the checkout?",
-          "How can I check out of my room?"
-        ],
-        "responses": [
-          "Checkout time is at 11 a.m. You may check out via your in-room iPad, by calling the Front Desk at +1 (857) 770-4000, or by simply dropping your guestroom keys in the Express Checkout box located in Resort Registration."
-        ]
-      },
-      {
-        "tag": "concierge",
-        "patterns": [
-          "Tell me about the Concierge team.",
-          "How can the Concierge assist me during my stay?"
-        ],
-        "responses": [
-          "The Concierge team at Encore Boston Harbor is available to assist before and during your stay to create a memorable experience. From transportation options, choice tables at our restaurants, sporting and event tickets and recommendations on sightseeing tours, our world-class Concierge team is ready to take care of every detail. Concierge service is available Sunday through Wednesday from 11 a.m.–6 p.m. and Thursday through Saturday from 10 a.m.–9 p.m. To contact the concierge, please call +1 (857) 770-7070 or e-mail conciergeservices@encorebostonharbor.com. We will respond to requests within 24 hours."
-        ]
-      },
-      {
-        "tag": "fitness_center",
-        "patterns": [
-          "Where is the Fitness Center located?",
-          "What are the hours of operation for the Fitness Center?"
-        ],
-        "responses": [
-          "The Fitness Center is located on the Spa level on the third floor which you can get to by pressing the spa button in the elevator. Private personal sessions are available by request and appointment. Please call us if you have any questions +1 (857) 770-3900. Click here for current hours of operation."
-        ]
-      },
-      {
-        "tag": "guest_feedback",
-        "patterns": [
-          "How can I provide feedback about my stay?",
-          "Tell me about the feedback submission process."
-        ],
-        "responses": [
-          "We would love to hear from you. To submit feedback e-mail guest.comments@encorebostonharbor.com or fill out a comment card located at the Main Registration desk."
-        ]
-      },
-      {
-        "tag": "housekeeping_services",
-        "patterns": [
-          "How can I request housekeeping services?",
-          "Tell me about the housekeeping contact details."
-        ],
-        "responses": [
-          "Please call Encore Housekeeping at +1 (857) 770-4400 to request to have your room cleaned or for requests such as extra towels, pillows, blankets, soaps, lotions, etc."
-        ]
-      },
-      {
-        "tag": "lost_and_found",
-        "patterns": [
-          "How can I retrieve a lost item?",
-          "Tell me about the Lost and Found services."
-        ],
-        "responses": [
-          "Lost and Found is open daily from 8 a.m.–12 a.m. and may be reached at +1 (857) 770-4330. To report a lost item, click here."
-        ]
-      },
-      {
-        "tag": "maintenance_services",
-        "patterns": [
-          "What should I do for maintenance issues?",
-          "How can I request maintenance services?"
-        ],
-        "responses": [
-          "For maintenance issues, please press the guest services button on your room phone."
-        ]
-      },
-      {
-        "tag": "room_bill",
-        "patterns": [
-          "How can I view my room bill?",
-          "Tell me about the room bill viewing process."
-        ],
-        "responses": [
-          "You can view your bill on your in-room iPad or have a copy printed for you at the Front Desk. For more information, please call the Front Desk at +1 (857) 770-4000."
-        ]
-      },
-      {
-        "tag": "smoking",
-        "patterns": [
-          "Is smoking allowed in the guestrooms?",
-          "Tell me about the smoking policy."
-        ],
-        "responses": [
-          "There is a $500 deep cleaning fee charged for smoking in a designated non-smoking room. Smoking areas can be found outdoors. Cannabis products are prohibited in guest rooms and throughout the resort."
-        ]
-      },
-      {
-        "tag": "telephone_charges",
-        "patterns": [
-          "How are telephone charges handled?",
-          "Tell me about the charges for telephone calls."
-        ],
-        "responses": [
-          "Local and domestic long-distance calls are free as well as toll-free calls (800, 833, 844, 855, 866, 877 and 888 prefixes): Direct-Dialed Long-Distance and International Calls: All calls will be charged AT&T operator-assisted daytime rates."
-        ]
-      },
-      {
-        "tag": "wifi",
-        "patterns": [
-          "Is WiFi available in the guestrooms?",
-          "Tell me about the WiFi services."
-        ],
-        "responses": [
-          "WiFi is free up to 7 MB per minute. Higher speed upgrade is available for $9.99 per device, per day. To log on, please provide your last name and room number."
-        ]
-      },
-      {
-        "tag": "dress_code_casual_dining",
-        "patterns": [
-          "What is the dress code for casual dining?",
-          "Can I wear swimwear in casual dining areas?"
-        ],
-        "responses": [
-          "Open-toed shoes, sleeveless shirts, mid-riffs, and baseball caps are permitted. Swimwear and sheer, transparent clothing are not permitted."
-        ]
-      },
-      {
-        "tag": "dress_code_fine_dining",
-        "patterns": [
-          "What is the dress code for fine dining?",
-          "Are open-toed shoes allowed in fine dining?"
-        ],
-        "responses": [
-          "Dressy attire is preferred. Open-toed shoes and tank tops for men are not permitted. Baseball caps, sweatpants, swimwear, sheer, transparent clothing, and bare mid-riffs are not permitted for all."
-        ]
-      },
-      {
-        "tag": "restaurant_menus",
-        "patterns": [
-          "How can I view the restaurant menus?",
-          "Where can I find the menus for the restaurants?"
-        ],
-        "responses": [
-          "To view our restaurant menus, visit encorebostonharbor.com/dining-and-nightlife."
-        ]
-      },
-      {
-        "tag": "restaurant_reservations",
-        "patterns": [
-          "Are reservations accepted for the restaurants?",
-          "How can I make restaurant reservations?"
-        ],
-        "responses": [
-          "Reservations are accepted and recommended at Rare Steakhouse, Red 8, Mystique, and Fratelli. Reservations can be made anytime online. You will receive a confirmation text or e-mail once your reservation is confirmed."
-        ]
-      },
-      {
-        "tag": "vegetarian_and_vegan_food",
-        "patterns": [
-          "Does Encore Boston Harbor offer vegetarian and vegan options?",
-          "Tell me about vegan and vegetarian selections at Encore Boston Harbor."
-        ],
-        "responses": [
-          "Encore Boston Harbor offers vegan and vegetarian selections that are designed and prepared with the same care and attention as any of the signature items served. These deliciously satisfying dishes have been prepared with wholesome, plant-based food prepared in ways that enhance the flavor of each component."
-        ]
-      },
-      {
-        "tag": "rare_steakhouse",
-        "patterns": [
-          "Tell me about Rare Steakhouse.",
-          "How can I make a reservation at Rare Steakhouse?"
-        ],
-        "responses": [
-          "In this elegant dining room with stunning views overlooking the Harborwalk and Mystic River, the steakhouse experience is redefined with creative classics and exceptional cuts. Rare features the most uniquely curated steak program in New England, including exclusive Japanese cuts from Kobe and the Kagoshima prefecture, as well as the best of domestic beef from Snake River Farms, Idaho, and our partners at La Frieda Meats. To make a reservation, view hours of operation and the restaurant menu, please click here."
-        ]
-      },
-      {
-        "tag": "red_8",
-        "patterns": [
-          "Tell me about Red 8.",
-          "How can I make a reservation at Red 8?"
-        ],
-        "responses": [
-          "Red 8’s diverse menu masterfully blends the flavors of China with Western technique to create singularly delicious cuisine. Along with Cantonese and dim sum classics, you’ll find flavors of Shanghai and Sichuan as well as our decadent Peking-style Duck or Ginger-Scallion Steamed Fish. To make a reservation, view hours of operation and the restaurant menu, please click here."
-        ]
-      },
-      {
-        "tag": "cheese_meet_wine",
-        "patterns": [
-          "Tell me about Cheese Meet Wine.",
-          "Is Cheese Meet Wine a walk-in only restaurant?"
-        ],
-        "responses": [
-          "Visit Cheese Meet Wine for pairings of charcuterie favorites and delectable wines. Enjoy imported and domestic carved-to-order meats, fresh soft and hard cheeses, sandwiches, soups, and a curated wine list comprised of grapes from around the globe. Try something new or savor the familiar during your next visit, located next to Wynn Sports. To view hours of operation and the restaurant menu, please click here. Walk-ins only."
-        ]
-      },
-      {
-        "tag": "on_deck",
-        "patterns": [
-          "Tell me about On Deck.",
-          "What's offered at On Deck?"
-        ],
-        "responses": [
-          "Classic American sports bar favorites and comfort food come together with panoramic views of the gaming floor. The action down on the tables might end up stealing your attention during the 7th inning stretch. To view hours of operation and the restaurant menu, please click here. Walk-ins only."
-        ]
-      },
-      {
-        "tag": "night_shift_brewing",
-        "patterns": [
-          "Tell me about Night Shift Brewing Kitchen & Tap.",
-          "What kind of beers does Night Shift Brewing offer?"
-        ],
-        "responses": [
-          "Night Shift Brewing Kitchen & Tap features an extensive list of Night Shift Brewing's locally crafted beers. Over the last decade, Night Shift Brewing, started by a trio of college friends with a shared passion for homebrewing, gained fame for its high-quality craftsmanship and strong community ties. This popular craft brewer is loved by locals. The beverage menu includes more than 20 beers on tap and a wide selection of canned beers and seltzers, including Night Shift Brewing favorites. This collaborative restaurant and bar conveys natural synergies through every sip and every bite. Made especially for Encore Boston Harbor, don’t miss house beer, Local Luck IPA. To view hours of operation and the menu, please click here. Walk-ins only."
-        ]
-      }
-    ]
-  }
+  "intents": [
+    {
+      "tag": "Luxury_Interior_Design",
+      "patterns": [
+        "What makes Chris Adams' approach to interior design unique?",
+        "Can you tell me more about storytelling in luxury interior design?",
+        "How can I incorporate luxury into my hotel's design?",
+        "What services does Ellis Adams offer for restaurant design?"
+      ],
+      "responses": [
+        "Chris Adams' approach to interior design focuses on storytelling, creating spaces that not only exude luxury but also tell a compelling narrative.",
+        "Ellis Adams specializes in designing luxury interior spaces for hotels and restaurants, ensuring each project reflects the unique story and essence of the brand.",
+        "To incorporate luxury into your space with Ellis Adams, consider starting with a consultation to discuss your vision and how storytelling can be woven into the design."
+      ]
+    },
+    {
+      "tag": "Hospitality_Service_Development",
+      "patterns": [
+        "How does Ellis Adams enhance hospitality services?",
+        "What role does storytelling play in hospitality consulting?",
+        "Can Chris Adams help my hotel improve guest experiences?",
+        "What are the first steps to developing a luxury hospitality service?"
+      ],
+      "responses": [
+        "Ellis Adams enhances hospitality services by integrating storytelling into the guest experience, creating memorable and enjoyable settings.",
+        "Storytelling in hospitality consulting involves crafting unique narratives for your services, making each guest's stay unforgettable.",
+        "To develop a luxury hospitality service with Chris Adams, begin with a thorough consultation to identify key areas of enhancement and how to infuse luxury into every aspect of service."
+      ]
+    },
+    {
+      "tag": "International_Projects",
+      "patterns": [
+        "Does Chris Adams work on projects outside the US?",
+        "What international projects has Ellis Adams been involved with?",
+        "How can I engage Ellis Adams for a project in my country?",
+        "Are there any location restrictions for Ellis Adams' services?"
+      ],
+      "responses": [
+        "Chris Adams and his firm, Ellis Adams, work internationally, bringing luxury and lifestyle consulting to spaces around the world.",
+        "To engage Ellis Adams for an international project, reach out through their website to discuss your project's scope and requirements.",
+        "There are no strict location restrictions for Ellis Adams' services; they cater to clients globally, adapting to various cultural and design needs."
+      ]
+    },
+    {
+      "tag": "Career_Progression",
+      "patterns": [
+        "What was Chris Adams' role at the Ritz-Carlton Hotel?",
+        "How did Chris Adams climb up the corporate ladder?",
+        "Can you tell me about Adams' transition from executive to consultant?",
+        "What inspired Chris Adams to start his own agency?"
+      ],
+      "responses": [
+        "Chris Adams started his career at the Ritz-Carlton Hotel, where he excelled and eventually became an executive, focusing on enhancing the guest experience.",
+        "Driven by a passion for creating memorable moments and realizing the need for a consumer-focused approach, Adams transitioned to consultancy, founding the Ellis Adams Group.",
+        "The inspiration behind starting his own agency was to revolutionize the hospitality industry by prioritizing luxurious experiences and joy for consumers."
+      ]
+    },
+    {
+      "tag": "Creating_Experiences",
+      "patterns": [
+        "How does Ellis Adams Group create luxurious moments?",
+        "What approach does Adams take to revolutionize the hospitality industry?",
+        "Can you give examples of experiences created by Ellis Adams Group?",
+        "What sets the Ellis Adams Group apart in creating hospitality experiences?"
+      ],
+      "responses": [
+        "Ellis Adams Group creates luxurious moments by focusing on personalized and meaningful experiences, tailored to elicit joy and satisfaction among consumers.",
+        "Adams and his team revolutionize the hospitality industry by leveraging leadership skills and innovative approaches to service, ensuring memorable stays and interactions.",
+        "The unique approach of prioritizing consumer joy and creating bespoke experiences sets Ellis Adams Group apart in the hospitality industry."
+      ]
+    },
+    {
+      "tag": "Consultancy_Services",
+      "patterns": [
+        "What services does Ellis Adams Group offer to hotels?",
+        "How can my hotel benefit from consulting with Chris Adams?",
+        "What are the steps to engage Ellis Adams Group for consultancy?",
+        "Does Ellis Adams Group offer services beyond the hospitality industry?"
+      ],
+      "responses": [
+        "Ellis Adams Group offers a range of consultancy services, including strategic planning, experience design, and operational improvement to elevate the hotel guest experience.",
+        "Hotels can benefit from consulting with Chris Adams by gaining insights into innovative hospitality practices and strategies to create unforgettable guest experiences.",
+        "To engage Ellis Adams Group, reach out via their website to discuss your hotel's needs and how their consultancy services can help achieve your goals.",
+        "While specializing in the hospitality industry, Ellis Adams Group's expertise in creating luxurious moments and exceptional experiences can be adapted to other service-oriented sectors."
+      ]
+    },
+        {
+          "tag": "Impact_of_Luxury",
+          "patterns": [
+            "How does experiencing luxury contribute to personal development?",
+            "In what ways does Chris Adams aim to impact others through luxury?",
+            "What's the significance of hard work in achieving luxury, according to Adams?"
+          ],
+          "responses": [
+            "Chris Adams believes that luxury, attained through hard work and perseverance, can significantly impact personal growth and inspire individuals to leave a positive mark on the world.",
+            "Adams emphasizes that the true value of luxury lies in its ability to enhance lives and empower individuals to achieve their dreams and make meaningful contributions."
+          ]
+        },
+        {
+          "tag": "Leadership_Vision",
+          "patterns": [
+            "What leadership qualities does Chris Adams exhibit?",
+            "How does Adams' vision influence his approach to business?",
+            "What role does resilience play in Adams' strategy?"
+          ],
+          "responses": [
+            "Chris Adams showcases leadership qualities like resilience, strategic foresight, and the ability to inspire through his commitment to making a significant impact.",
+            "Adams' vision for his ventures is deeply influenced by his belief in taking calculated risks and leveraging resilience to overcome challenges and innovate within the luxury industry."
+          ]
+        },
+        {
+          "tag": "Embracing_Risk",
+          "patterns": [
+            "How has taking risks contributed to Adams' success?",
+            "Why is Adams not afraid of failure in business?",
+            "What examples of risk-taking in Adams' career can inspire entrepreneurs?"
+          ],
+          "responses": [
+            "Chris Adams attributes much of his success to his willingness to embrace risk, viewing failures as opportunities for growth and learning in the journey towards innovation.",
+            "Adams' career is a testament to the power of embracing risk, demonstrating that overcoming fear of failure is crucial for achieving breakthroughs and setting new standards in the luxury sector."
+          ]
+        },
+        {
+          "tag": "Autonomy_and_Entrepreneurship",
+          "patterns": [
+            "What advantages does being your own boss offer, according to Adams?",
+            "How does autonomy enhance creativity and innovation in business?",
+            "What advice does Adams give about navigating red tape as an entrepreneur?"
+          ],
+          "responses": [
+            "Chris Adams highlights the freedom and flexibility of being your own boss as key to pursuing visionary projects without the constraints of red tape, allowing for greater innovation and the realization of unique dreams.",
+            "Adams encourages entrepreneurs to leverage their autonomy to think outside the box, push boundaries, and pursue paths less traveled for extraordinary achievements."
+          ]
+        },
+        {
+          "tag": "Passion_for_Luxury",
+          "patterns": [
+            "How does Chris Adams pursue his passion for luxury in business?",
+            "What inspired Adams to partner with luxury fashion house Troy Anthony?",
+            "Can you describe the impact of luxury fashion on personal growth?"
+          ],
+          "responses": [
+            "Chris Adams channels his passion for luxury into various enterprises, including a notable partnership with Troy Anthony, to design luxury suits that embody quality and confidence.",
+            "Adams is driven by a belief that luxury, particularly in the form of high-quality fashion, can significantly enhance confidence and inspire individuals to reach their full potential."
+          ]
+        },
+        {
+          "tag": "Leadership_and_Inspiration",
+          "patterns": [
+            "How does Adams inspire others to reach their potential?",
+            "What role does leadership play in Chris Adams' business ventures?",
+            "In what ways do Adams' projects reflect his leadership philosophy?"
+          ],
+          "responses": [
+            "Chris Adams inspires others through his visionary leadership, demonstrating the power of maximizing potential through self-confidence and excellence in luxury lifestyle.",
+            "His leadership extends beyond motivating speech, to tangible projects like his work with Troy Anthony, where fashion becomes a medium to uplift and empower."
+          ]
+        },
+        {
+          "tag": "Luxury_Fashion_and_Confidence",
+          "patterns": [
+            "How does luxury fashion contribute to personal confidence?",
+            "What makes a well-tailored suit important according to Chris Adams?",
+            "Can fashion be a tool for personal and professional success?"
+          ],
+          "responses": [
+            "Luxury fashion, especially a well-tailored suit, plays a crucial role in boosting personal confidence, according to Chris Adams, reflecting one's ambition and status.",
+            "Adams advocates for the transformative impact of high-quality fashion on both personal and professional levels, enabling individuals to present their best selves."
+          ]
+        },
+        {
+          "tag": "Creative_Freedom_and_Innovation",
+          "patterns": [
+            "What limits, if any, does Adams see to creative freedom in luxury?",
+            "How does Adams approach innovation in the luxury sector?",
+            "What new ventures is Chris Adams exploring in luxury and lifestyle?"
+          ],
+          "responses": [
+            "Chris Adams believes in limitless creative freedom within the luxury sector, constantly seeking innovative ways to redefine luxury and lifestyle.",
+            "His approach to innovation is characterized by a fearless pursuit of what hasn't been done before, aiming to set new benchmarks in luxury and beyond."
+          ]
+        },
+        {
+          "tag": "Luxury_Consultant_Role",
+          "patterns": [
+            "What does a luxury consultant do for hotels?",
+            "How do you work with hotel owners and operators?",
+            "Can you explain the process of bringing a hotel's vision to life?"
+          ],
+          "responses": [
+            "As a luxury consultant, our role is to collaborate closely with hotel owners and operators, guiding them in translating their vision into reality, ensuring both the aesthetics and operations of the hotel deliver a WOW factor to guests from the moment they enter."
+          ]
+        },
+        {
+          "tag": "Creating_The_WOW_Factor",
+          "patterns": [
+            "How do you create a WOW factor in hotels?",
+            "What goes into the initial guest reaction in luxury hotels?",
+            "Can you detail the elements that contribute to a hotel's aesthetic appeal?"
+          ],
+          "responses": [
+            "Creating the WOW factor involves a meticulous design and operational strategy that emphasizes the hotel's aesthetic appeal. This includes ensuring the lighting, music, and aroma within the hotel are carefully curated to match the luxury and ambiance envisioned, providing an immersive sensory experience for guests."
+          ]
+        },
+        {
+          "tag": "Operational_Luxury_Experience",
+          "patterns": [
+            "How is the luxury experience maintained operationally in hotels?",
+            "What steps do you take to ensure operational excellence matches the hotel's beauty?",
+            "Can operational aspects enhance the luxury feel of a hotel?"
+          ],
+          "responses": [
+            "Maintaining the luxury experience operationally involves scrutinizing every aspect of the hotel's service and ambiance to ensure consistency with the initial aesthetic impression. This includes the precise management of lighting, music, and scents to sustain the WOW factor throughout the guest's stay."
+          ]
+        },
+        {
+          "tag": "Sensory_Experience_Activation",
+          "patterns": [
+            "What role do sensory experiences play in luxury hotels?",
+            "How do you activate the space in a luxury hotel?",
+            "Can you describe how aroma, lighting, and music contribute to luxury?"
+          ],
+          "responses": [
+            "Sensory experiences are paramount in defining luxury in hotels. Activating the space means optimizing lighting, music, and aroma to create an enveloping atmosphere that strikes guests with a sense of wonder and luxury, aligning with the hotel's overall aesthetic and operational ethos."
+          ]
+        },
+        {
+          "tag": "Completed_Projects_Overview",
+          "patterns": [
+            "Can you list some of the projects you've completed recently?",
+            "What are some notable projects your team has worked on during the pandemic?",
+            "Describe a few achievements your consulting firm has accomplished lately."
+          ],
+          "responses": [
+            "Despite the challenges presented by the pandemic, we've been actively involved in several key projects, including the activation of the Aloft in Tulum, which beautifully encapsulates the local architecture and vibe, and the Hilton in Aventura, Florida, a flagship property introducing new potentials for the brand."
+          ]
+        },
+        {
+          "tag": "Aloft_Tulum_Project",
+          "patterns": [
+            "What was unique about the Aloft hotel project in Tulum?",
+            "How did you manage to capture the essence of Tulum in the Aloft hotel?",
+            "Can you elaborate on the Aloft Tulum project's execution and outcome?"
+          ],
+          "responses": [
+            "The Aloft Tulum project was a remarkable endeavor that seamlessly integrated Tulum's distinctive architectural style and ambiance with Aloft's brand identity. This project was a testament to our ability to blend local culture with international hotel standards, resulting in a property that truly stands out."
+          ]
+        },
+        {
+          "tag": "Hilton_Aventura_Project",
+          "patterns": [
+            "What makes the Hilton in Aventura, Florida, stand out?",
+            "Can you discuss the challenges and successes of opening the Hilton Aventura?",
+            "What potential do you see in the newly opened Hilton Aventura?"
+          ],
+          "responses": [
+            "The Hilton Aventura, Florida, is a flagship project that showcases innovative design and service concepts. Despite the pandemic, we successfully launched this property, highlighting its potential to redefine luxury and service in the region with its unique offerings and strategic location."
+          ]
+        },
+        {
+          "tag": "Pandemic_Project_Challenges",
+          "patterns": [
+            "How has the pandemic affected your project timelines and executions?",
+            "What strategies did you employ to continue project development during the pandemic?",
+            "Describe how your team adapted to the challenges brought by the pandemic."
+          ],
+          "responses": [
+            "The pandemic posed unique challenges, from delayed timelines to adapting new health and safety standards. Our strategy focused on flexibility, close communication with our partners, and innovative problem-solving to ensure project continuity and success, even under these unprecedented circumstances."
+          ]
+        },
+        {
+          "tag": "Inspiration_for_Owning_Hotel",
+          "patterns": [
+            "What inspired you to open your own luxury hotel?",
+            "After years in hospitality, what drove you to start your own brand?",
+            "Can you share the journey that led you to create your own hotel?"
+          ],
+          "responses": [
+            "My inspiration for opening my own luxury hotel came from years of observing and identifying unique nuances in guest experiences worldwide. I saw an opportunity to innovate in room setup, food and beverage offerings, and integrating back-of-house elements into the guest experience, all driven by evolving consumer expectations."
+          ]
+        },
+        {
+          "tag": "Creating_Luxury_Hotel_Concept",
+          "patterns": [
+            "How did you conceptualize your luxury hotel brand?",
+            "What elements did you consider essential in setting up guest rooms?",
+            "In what ways are you planning to innovate the food and beverage space?"
+          ],
+          "responses": [
+            "The concept of my luxury hotel brand was developed over years, focusing on creating the perfect lifestyle luxury brand that meets contemporary consumer expectations. Essential elements in guest room setup and food and beverage innovation include maximizing comfort, convenience, and offering unique experiences that draw inspiration from the less visible, yet crucial, aspects of hotel operations."
+          ]
+        },
+        {
+          "tag": "Consumer_Expectations_and_Hotel_Design",
+          "patterns": [
+            "How have consumer expectations influenced your hotel design?",
+            "What changes in consumer behavior led you to believe the time was right for your hotel?",
+            "How are you incorporating back-of-house elements into the guest experience?"
+          ],
+          "responses": [
+            "Consumer expectations, particularly a desire for more authentic and integrated experiences, heavily influenced my hotel design. Recognizing a shift towards valuing immersive and holistic hospitality experiences, my design integrates back-of-house elements into visible, interactive parts of the guest journey, enriching the overall stay."
+          ]
+        },
+        {
+          "tag": "Launching_Luxury_Hotel_Brand",
+          "patterns": [
+            "What challenges are you anticipating in launching your luxury hotel?",
+            "How are you preparing to meet the changing expectations of luxury travelers?",
+            "What makes your luxury hotel brand stand out in today's market?"
+          ],
+          "responses": [
+            "Launching my luxury hotel brand comes with the challenge of continuously adapting to and anticipating the evolving needs of luxury travelers. My preparation involves a deep commitment to innovation, exceptional service, and creating a brand that stands out through its unique approach to blending lifestyle elements with luxury, offering an unmatched guest experience."
+          ]
+        },
+        {
+          "tag": "Hotel_Project_Inspiration",
+          "patterns": [
+            "What inspired you to start your own luxury hotel?",
+            "Can you share the motivations behind creating a new lifestyle luxury brand?",
+            "What experiences led you to design your hotel concept?"
+          ],
+          "responses": [
+            "The inspiration came from years of working in and opening hotels globally, noticing nuances and areas for improvement in guest experiences and deciding to integrate those insights into creating the perfect lifestyle luxury brand tailored to evolving consumer expectations."
+          ]
+        },
+        {
+          "tag": "Creative_and_Business_Balance",
+          "patterns": [
+            "How do you balance creativity with business in your hotel project?",
+            "What challenges have you faced in balancing the vision and business aspects?",
+            "Can you discuss the process of aligning creative ideas with business strategy?"
+          ],
+          "responses": [
+            "Balancing creativity and business involves a careful consideration of our vision against the practicalities of business operations. We rely on insights from industry veterans to make informed decisions that align with our goal of establishing a next-generation lifestyle luxury brand, all while navigating the complexities of business planning and execution."
+          ]
+        },
+        {
+          "tag": "Hotel_Location_Decision",
+          "patterns": [
+            "Where will your new luxury hotel be located?",
+            "Can you disclose any potential locations for your hotel project?",
+            "What factors are influencing the location selection for your hotel?"
+          ],
+          "responses": [
+            "The location for our new luxury hotel is currently being finalized, with three potential sites under consideration. Each location offers unique opportunities to fulfill our vision, and we're closely evaluating which will best serve our goals and guest expectations."
+          ]
+        },
+        {
+          "tag": "Project_Development_Challenges",
+          "patterns": [
+            "What challenges have you encountered in developing the hotel?",
+            "How do you manage the frustrations and setbacks in the project?",
+            "What keeps you motivated during the tough days of development?"
+          ],
+          "responses": [
+            "Developing the hotel has been a journey of highs and lows, with challenges in balancing creative aspirations with the realities of business. Support and guidance from experienced professionals, alongside a belief in doing something revolutionary, drive us forward through both the great and frustrating days."
+          ]
+        },
+        {
+          "tag": "Community_Focused_Luxuries",
+          "patterns": [
+            "How do you plan to incorporate community-focused luxuries into your hotel?",
+            "Can you describe the types of local amenities you aim to include?",
+            "What is your strategy for integrating into the communities you enter?"
+          ],
+          "responses": [
+            "Our strategy involves deeply understanding the needs and desires of the communities we enter, aiming to provide amenities such as local coffee shops, wine bars, and spirit shops that resonate with local preferences. We're committed to being a valuable, integrated part of the community through thoughtful and strategic incorporation of local luxuries."
+          ]
+        },
+        {
+          "tag": "Local_Partnerships",
+          "patterns": [
+            "How will you establish partnerships with local businesses?",
+            "What criteria do you use to select local vendors for your hotel?",
+            "Can you share how you plan to support local businesses through your project?"
+          ],
+          "responses": [
+            "We prioritize partnerships with local businesses that share our values of quality and community service, selecting vendors based on their ability to contribute meaningfully to our guests' experience and the local economy. Our goal is to support and uplift local businesses by integrating them into the fabric of our hotel's offerings."
+          ]
+        },
+        {
+          "tag": "Strategic_Amenity_Planning",
+          "patterns": [
+            "What process do you follow to decide on the amenities you offer?",
+            "How do you ensure the amenities you choose are aligned with community needs?",
+            "Can you explain the thought process behind the selection of hotel amenities?"
+          ],
+          "responses": [
+            "Our amenity planning process involves thorough research and dialogue with community members to understand their needs and preferences. We ensure alignment with community needs through continuous engagement and feedback mechanisms, allowing us to tailor our offerings to truly serve and enhance the local area."
+          ]
+        },
+        {
+          "tag": "Redefining_Hotel_Model",
+          "patterns": [
+            "How are you planning to change the traditional hotel model?",
+            "What makes your hotel concept different from existing models?",
+            "Can you explain the idea behind a hotel being an epicenter of entertainment?"
+          ],
+          "responses": [
+            "Our vision is to transform the conventional hotel model by integrating it with a lifestyle and entertainment venue, making it not just a place to stay but a vibrant epicenter for dining, shopping, and entertainment. This approach aims to create a dynamic environment where guests and the local community can engage and experience the pinnacle of lifestyle and entertainment in one place."
+          ]
+        },
+        {
+          "tag": "Lifestyle_Entertainment_Venue",
+          "patterns": [
+            "What kind of lifestyle and entertainment options will the hotel offer?",
+            "How do you envision guests interacting with the entertainment aspects of the hotel?",
+            "Can you detail the amenities that will make your hotel the epicenter of entertainment?"
+          ],
+          "responses": [
+            "Our hotel will offer a wide range of lifestyle and entertainment options, including gourmet dining, high-end shopping, and vibrant entertainment spaces. We envision guests fully immersing themselves in the lively atmosphere, making our hotel the go-to destination for experiencing the height of luxury lifestyle and entertainment, all while enjoying the comfort of our exquisite master bedrooms."
+          ]
+        },
+        {
+          "tag": "Guest_Experience_Innovation",
+          "patterns": [
+            "How will this new hotel concept enhance the guest experience?",
+            "What are the benefits of staying in a hotel that doubles as an entertainment venue?",
+            "How does the concept of having 'sick master bedrooms' fit into the overall hotel experience?"
+          ],
+          "responses": [
+            "This innovative hotel concept enhances the guest experience by offering an unparalleled mix of luxury accommodation and engaging entertainment options right at their doorstep. The benefit of such a model is that guests have immediate access to a vibrant social and entertainment scene, enriching their stay with memorable experiences. The 'sick master bedrooms' elevate this by ensuring that after a day of dining, playing, and shopping, guests can retreat to the luxury and comfort of their beautifully designed rooms."
+          ]
+        },
+        {
+          "tag": "Creating_The_Epicenter_of_Entertainment",
+          "patterns": [
+            "What strategies are you using to make the hotel an epicenter of entertainment?",
+            "How will you attract both the local community and travelers to the hotel?",
+            "What role does the community play in the success of this entertainment-centric hotel?"
+          ],
+          "responses": [
+            "To establish the hotel as an epicenter of entertainment, we are employing strategies that include curating a diverse mix of entertainment and lifestyle options that appeal to a wide audience, and fostering partnerships with local businesses to create a symbiotic relationship that benefits both the hotel and the community. The local community is integral to our success, providing the vibrant atmosphere that attracts travelers seeking authentic and immersive experiences."
+          ]
+        },
+        {
+          "tag": "Strategic_Storytelling_Integration",
+          "patterns": [
+            "What strategies will you use to weave storytelling into the hotel's fabric?",
+            "How will the story of the local community be reflected in your project?",
+            "Can you detail the process of incorporating storytelling from conception to completion?"
+          ],
+          "responses": [
+            "Our approach to storytelling is holistic, encompassing every aspect of the hotel's creation and operation. By deeply understanding the local community – their passions, excitements, and joys – we tailor our project's narrative to not just tell a story, but to embody the essence of the locale, making it an integral part of the guest experience and the project's identity."
+          ]
+        },
+        {
+          "tag": "Community_Engagement_and_Storytelling",
+          "patterns": [
+            "How do you plan to engage with the community to shape your storytelling?",
+            "What methods will be used to gather insights about the community's interests?",
+            "In what ways will community feedback influence the storytelling aspect?"
+          ],
+          "responses": [
+            "Engaging with the community is a pivotal step in our storytelling process. Through workshops, meetings, and cultural immersion, we aim to gather authentic insights into what drives the community. This feedback will not only shape our narrative but ensure that the project serves as a genuine reflection of the local ethos, contributing positively to the area's cultural landscape."
+          ]
+        },
+        {
+          "tag": "Community_Driven_Brand_Identity",
+          "patterns": [
+            "How does the local community influence your brand identity?",
+            "In what ways do you incorporate community values into your hotel brand?",
+            "Can you explain the importance of community integration in your branding strategy?"
+          ],
+          "responses": [
+            "Our brand identity is deeply influenced by the communities we enter, recognizing them as the heart and life of our existence. We actively integrate community values, interests, and cultures into our operations and services, ensuring our brand reflects the local ethos and spirit, thus fostering a strong connection with both residents and visitors."
+          ]
+        },
+        {
+          "tag": "Welcoming_Guests_to_the_Community",
+          "patterns": [
+            "How do you convey the community's essence to outside guests?",
+            "What strategies do you use to make guests feel a part of the local community?",
+            "Can you describe how your hotel acts as a bridge between guests and the local community?"
+          ],
+          "responses": [
+            "We aim to welcome guests into our community by offering them an immersive experience that showcases the local culture, traditions, and lifestyle. Through strategic storytelling, curated local partnerships, and community-focused events, we make guests feel not just visitors, but integral parts of the community, enhancing their stay with authentic local experiences."
+          ]
+        },
+        {
+          "tag": "Differentiating_Brand_Strategy",
+          "patterns": [
+            "What makes your hotel brand stand out from others?",
+            "How does community integration set your brand apart from competitors?",
+            "Can you detail the unique aspects of your brand that appeal to new guests?"
+          ],
+          "responses": [
+            "Our brand stands out by deeply embedding itself within the local community, offering guests an authentic and immersive local experience unlike any other. This approach not only differentiates us from competitors but aligns with the desires of modern travelers seeking genuine connections and experiences, positioning our hotel as a preferred choice for those wishing to truly engage with the community."
+          ]
+        },
+        {
+          "tag": "Memorable_Guest_Experience",
+          "patterns": [
+            "What kind of experience do you aim to provide to your guests?",
+            "How do you plan to create memorable moments for guests?",
+            "Can you describe the unique feeling you want guests to have?"
+          ],
+          "responses": [
+            "Our goal is to provide an unforgettable experience, creating a unique and lasting feeling of satisfaction and wonder. We aim to craft moments so special that guests will crave the experience again, feeling a sense of disappointment elsewhere. It's about delivering an unparalleled sense of joy and anticipation that makes our hotel the only place they want to stay."
+          ]
+        },
+        {
+          "tag": "Staff_Role_in_Creating_Experiences",
+          "patterns": [
+            "How important is your staff in creating memorable guest experiences?",
+            "What qualities do you look for in staff to enhance guest satisfaction?",
+            "Can you talk about how your team anticipates and fulfills guest needs?"
+          ],
+          "responses": [
+            "Our staff plays a crucial role in creating memorable experiences, as they are the ones who interact directly with our guests. We prioritize hiring the best people who can genuinely create moments, memories, and experiences that make guests want to return. It's about having a team that thinks ahead, anticipates needs, and engages with every guest in a way that feels both personal and extraordinary."
+          ]
+        },
+        {
+          "tag": "Creating_A_Compelling_Value_Proposition",
+          "patterns": [
+            "What makes your hotel the preferred choice for guests?",
+            "How do you differentiate your hotel from competitors?",
+            "In what ways does your hotel create a compelling 'must-stay' feeling?"
+          ],
+          "responses": [
+            "Our hotel differentiates itself by creating a compelling value proposition that focuses on delivering exceptional, anticipatory service and creating deeply personalized experiences. It's not just about the amenities or the physical space; it's about fostering a feeling of 'I have to be here' among our guests, making our property the definitive choice for those seeking an unmatched stay fueled by moments that resonate long after their departure."
+          ]
+        },
+        {
+          "tag": "Technology_Integration",
+          "patterns": [
+            "How will technology play a role in your hotel's experience?",
+            "Can you describe the technological innovations planned for the hotel?",
+            "What makes your hotel's approach to technology unique?"
+          ],
+          "responses": [
+            "Technology is a cornerstone of our hotel's identity, enhancing the guest experience through innovative solutions and seamless interactions. We're excited to introduce a level of technological integration that's not just about convenience, but also about creating unique, memorable experiences that set us apart in the hospitality industry."
+          ]
+        },
+        {
+          "tag": "Pre_Launch_Tech_Version",
+          "patterns": [
+            "What can you tell us about the tech version of your hotel?",
+            "How does the digital pre-launch reflect your hotel's vision?",
+            "What unique features can guests expect from the tech version of the hotel?"
+          ],
+          "responses": [
+            "Before the physical opening, we're thrilled to launch a tech version of our hotel, a pioneering concept that allows guests to experience our brand's ethos and innovation digitally. This unique approach not only showcases our commitment to technological advancement but also offers a sneak peek into the exceptional experiences future guests can anticipate, setting a new benchmark in the industry."
+          ]
+        },
+        {
+          "tag": "Innovative_Hospitality_Solutions",
+          "patterns": [
+            "What innovative solutions are you bringing to the hospitality sector?",
+            "How does innovation drive your hotel's development and guest experiences?",
+            "In what ways are you pushing the boundaries of traditional hospitality?"
+          ],
+          "responses": [
+            "Our commitment to innovation is evident in every aspect of our development, from the tech version of our hotel to the seamless integration of technology in our physical spaces. By embracing innovative solutions, we aim to redefine hospitality, offering guests unparalleled experiences that challenge the status quo and exceed expectations."
+          ]
+        },{
+          "tag": "Career_Origins",
+          "patterns": [
+            "Can you share how Chris Adams started in the hospitality industry?",
+            "What inspired Chris Adams to work at The Ritz-Carlton?",
+            "How did Chris Adams' early experiences influence his career path?"
+          ],
+          "responses": [
+            "Chris Adams' career in the hospitality industry began as a summer job at The Ritz-Carlton Hotel Company. Despite having no prior experience in hospitality, the culture and values of The Ritz-Carlton resonated with him deeply, marking the start of his dedication to the industry."
+          ]
+        },
+        {
+          "tag": "Overcoming_Challenges",
+          "patterns": [
+            "What challenges did Chris Adams face at the start of his hospitality career?",
+            "How did Chris Adams manage long work hours in the early days?",
+            "Can you describe a difficult period Chris Adams experienced while working in hospitality?"
+          ],
+          "responses": [
+            "At the start of his hospitality career, Chris Adams faced the challenge of lacking industry experience, which required him to work up to 100 hours a week to learn the business side of hospitality. Despite the grueling hours, his passion for the field made the hard work fulfilling."
+          ]
+        },
+        {
+          "tag": "Founding_Ellis_Adams_Group",
+          "patterns": [
+            "What led Chris Adams to found Ellis Adams Group?",
+            "How does Ellis Adams Group's origin story reflect Chris Adams' career journey?",
+            "What inspired the creation of an international hospitality consulting firm?"
+          ],
+          "responses": [
+            "After years of experience and growth in the hospitality and entertainment industries, Chris Adams founded Ellis Adams Group as an international consulting firm focused on comprehensive business aspects such as branding, design, and revenue generation, inspired by his passion for creating memorable hospitality experiences."
+          ]
+        },
+        {
+          "tag": "EAG_Services_Focus",
+          "patterns": [
+            "What services does Ellis Adams Group offer?",
+            "How does Ellis Adams Group assist in brand building and design development?",
+            "Can you detail the approach Ellis Adams Group takes toward training and management in the hospitality sector?"
+          ],
+          "responses": [
+            "Ellis Adams Group offers a wide range of services including brand building, concept and design development, training, management, revenue generation, and profit margin improvements, aiming to elevate businesses in the hospitality sector by applying Chris Adams' extensive industry experience and innovative approaches."
+          ]
+        },{
+          "tag": "Personal_Drive_and_Motivation",
+          "patterns": [
+            "What motivated Chris Adams to keep going despite the challenges?",
+            "How did Chris Adams' family influence his career in hospitality?",
+            "What was Chris Adams' driving force in his early career?"
+          ],
+          "responses": [
+            "Chris Adams was driven by the desire to provide an amazing life full of opportunities for his young family. His commitment to working harder than anyone else, even in the face of numerous mistakes, was fueled by his determination to ensure a better future for them."
+          ]
+        },
+        {
+          "tag": "Impact_of_Grit_and_Resilience",
+          "patterns": [
+            "How have grit and resilience contributed to Chris Adams' success?",
+            "What role has perseverance played in the growth of Ellis Adams Group?",
+            "Can you describe how challenges were transformed into opportunities by Chris Adams?"
+          ],
+          "responses": [
+            "Chris Adams attributes his success to grit and resilience, maintaining a strong purpose and thriving culture within Ellis Adams Group. His belief in the value of overcoming challenges, inspired by his mentors, has helped the company expand significantly, embodying the principle that 'Easy Never Changed The World'."
+          ]
+        },
+        {
+          "tag": "Learning_from_Mistakes",
+          "patterns": [
+            "Can Chris Adams share a memorable mistake from his early career?",
+            "What lesson did Chris Adams learn from a mistake made during his time at The Ritz-Carlton?",
+            "How did an early error in judgement shape Chris Adams' approach to challenges?"
+          ],
+          "responses": [
+            "A humorous yet enlightening moment in Chris Adams' early career occurred when he rushed to clean up a spill in the Lobby Lounge, only to nearly break a glass table himself. The lesson he learned from the General Manager's advice—to 'smile and breathe'—taught him the importance of staying calm and not being rattled by small setbacks."
+          ]
+        },{
+          "tag": "Company_Values_and_Differentiation",
+          "patterns": [
+            "What core principles does Ellis Adams Group operate by?",
+            "How does the philosophy of EAG make it stand out in the hospitality industry?",
+            "Can you provide an example of EAG's commitment to its values in action?"
+          ],
+          "responses": [
+            "Ellis Adams Group stands out by living by certain rules: always doing the right thing, not letting emotions dictate behavior, chasing 'Pink Elephants', and leading with 'YES!'. This commitment to values was exemplified during a hotel opening, where EAG volunteered to assist the Housekeeping team, showcasing their dedication to the success of the entire hotel, not just the F&B sector."
+          ]
+        },
+        {
+          "tag": "Preventing_Burnout",
+          "patterns": [
+            "What advice does Chris Adams offer to avoid burnout in the hospitality industry?",
+            "How can professionals in hospitality maintain their passion and purpose?",
+            "What strategies does Chris Adams recommend for thriving in a demanding industry?"
+          ],
+          "responses": [
+            "To avoid burnout, Chris Adams recommends not sweating the small stuff, remembering the journey is a marathon, taking strategic losses for future wins, ensuring passion and purpose are aligned, and surrounding oneself with a team that elevates and supports. Cultivating a positive culture daily is key to sustained success and personal well-being."
+          ]
+        },
+        {
+          "tag": "Gratitude_and_Influence",
+          "patterns": [
+            "Who has played a significant role in Chris Adams' professional journey?",
+            "Can Chris Adams share a story of a mentor who influenced his career?",
+            "How have mentors impacted the approach of Ellis Adams Group to hospitality?"
+          ],
+          "responses": [
+            "Chris Adams is grateful to many, including his father and early mentors, who shaped his professional and personal development. One pivotal mentor was his first GM, who taught him the essence of luxury hospitality and the importance of doing whatever it takes to fulfill guest desires, a philosophy that has deeply influenced EAG's operations and branding."
+          ]
+        },
+        {
+          "tag": "Impact_and_Goodness",
+          "patterns": [
+            "How does Ellis Adams Group use its success to impact the world positively?",
+            "Can Chris Adams share how EAG contributes to individual and community growth?",
+            "What is Ellis Adams Group's approach to fostering passion and purpose in others?"
+          ],
+          "responses": [
+            "Ellis Adams Group strives to make a positive impact by helping individuals discover and pursue their passion and purpose. Through dedication to uplifting others and fostering a culture of success and support, EAG aims to expose and nurture the inherent greatness in everyone they interact with, reflecting their commitment to bringing goodness to the world."
+          ]
+        }, {
+          "tag": "Leadership_Advice",
+          "patterns": [
+            "What advice would you give to someone starting their own company?",
+            "Can you share top leadership lessons learned in your journey?",
+            "What are the '5 things you wish someone told you before you started leading your company'?"
+          ],
+          "responses": [
+            "1. Don't sweat the small stuff - Focus on what truly matters without getting overwhelmed by daily challenges.",
+            "2. How you live personally affects you professionally - Ensure a supportive home environment to bolster business success.",
+            "3. Pursue your own passion, not someone else's purpose - Stay true to your path, inspired by others but not diverted by their journeys.",
+            "4. Patience with goals, impatience with tasks - Set realistic long-term goals but be proactive and diligent in completing the tasks that lead to these goals.",
+            "5. It's okay to be different - Don't be afraid to innovate and create your own path to success, leveraging your unique talents and visions."
+          ]
+        },
+        {
+          "tag": "Emotional_Resilience",
+          "patterns": [
+            "How do you manage the emotional highs and lows of being a founder?",
+            "What strategies do you recommend for dealing with business challenges?",
+            "Can you provide advice on maintaining emotional stability in entrepreneurship?"
+          ],
+          "responses": [
+            "Managing emotional highs and lows involves not letting emotions dictate behavior. Celebrate your wins and learn from your losses without letting them unduly influence your decision-making process. Accept failures as part of the journey, understanding that they're opportunities for learning and growth, not indicators of personal failure. Cultivate a mindset of resilience, learning to 'fail forward' quickly and use every experience as a stepping stone towards greater achievements."
+          ]
+        },
+        {
+          "tag": "Company_Values_and_Differentiation",
+          "patterns": [
+            "What makes your company stand out?",
+            "How do your company's values influence its operations?",
+            "Can you share a story that illustrates your company's commitment to its values?"
+          ],
+          "responses": [
+            "Our company stands out because of our unwavering commitment to our core values: always doing the right thing, not letting emotions dictate behavior, chasing 'Pink Elephants', and leading with 'YES!'. This commitment is exemplified in actions such as when our team volunteered to help with housekeeping during a hotel opening, going beyond our defined roles to ensure the success of the entire project. This act underscored our dedication to our clients and to achieving excellence, no matter the task at hand."
+          ]
+        },
+        {
+          "tag": "Career_Advancement_and_Growth",
+          "patterns": [
+            "How does your company approach career growth and development?",
+            "What advice do you have for individuals seeking to advance in their careers?",
+            "Can you share how being different has impacted career paths within your company?"
+          ],
+          "responses": [
+            "Our approach to career growth and development emphasizes aligning roles with individuals' natural talents, gifts, purpose, and passion, rather than following traditional career progression paths. We challenge the conventional wisdom that one must climb to a specific title to grow, instead encouraging our team to pursue paths that align with their strengths and interests. This philosophy has led to more fulfilled team members who are able to contribute significantly to our company's success while also achieving personal growth and satisfaction."
+          ]
+        },
+        {
+          "tag": "Handling_Failure_and_Success",
+          "patterns": [
+            "How do you handle failure and success in your business?",
+            "What lessons have you learned from failures?",
+            "Can you share strategies for 'failing forward' and turning setbacks into growth opportunities?"
+          ],
+          "responses": [
+            "Handling failure and success involves maintaining a balanced perspective, where neither successes nor failures dictate our future decisions. We celebrate our victories and view our setbacks as essential learning opportunities. By adopting a 'fail forward' attitude, we quickly learn from our mistakes, understanding that each failure is merely a stepping stone towards our larger goals. This approach has instilled a culture of resilience and continuous improvement within our team, encouraging innovation and a willingness to take calculated risks."
+          ]
+        },{
+          "tag": "Promote_Understanding_and_Acceptance",
+          "patterns": [
+            "If you could start a movement for positive change, what would it be?",
+            "How can we encourage more understanding and acceptance in society?",
+            "What idea do you have for bringing people together despite their differences?"
+          ],
+          "responses": [
+            "The movement I would start centers on accepting people for who they are and loving them where they are. It's about understanding that while our paths to wanting the best for humanity might differ, our core desires are often the same. By listening more and embracing our differences, we can find common ground. This movement would encourage us to celebrate diversity, foster empathy, and build bridges of understanding, aiming to bring about the most good for the greatest number of people. It’s a call to recognize our shared humanity and work together towards a more inclusive world."
+          ]
+        },{
+          "tag": "Philosophy_of_Luxury",
+          "patterns": [
+            "How does Chris Adams define luxury in hospitality?",
+            "What is the philosophy behind luxury at Ellis Adams Group?",
+            "Can luxury be accessible in modest settings according to Chris Adams?"
+          ],
+          "responses": [
+            "Chris Adams believes luxury is not about the price tags but the feelings and experiences it invokes. This philosophy guides Ellis Adams Group's approach, emphasizing that true luxury is making someone feel valued and special, and should be accessible and meaningful across all settings, not just in renowned luxury brands."
+          ]
+        },
+        {
+          "tag": "Leadership_and_Value",
+          "patterns": [
+            "What is Chris Adams' view on leadership in the hospitality industry?",
+            "How does making people feel valued fit into the luxury experience?",
+            "Why is treating employees as internal guests important at Ellis Adams Group?"
+          ],
+          "responses": [
+            "Chris Adams underscores the interplay between luxury and leadership, focusing on making people feel valued and special. He considers the essence of luxury to lie in the emotional impact it has on individuals. This belief extends internally, as Adams highlights the importance of ensuring employees feel the luxury experience firsthand, enabling them to authentically convey it to guests."
+          ]
+        },
+        {
+          "tag": "Cultivating_Company_Culture",
+          "patterns": [
+            "How does Chris Adams distinguish between creating and cultivating culture?",
+            "What makes a company's culture truly measure up according to Adams?",
+            "Can you describe Ellis Adams Group's approach to nurturing its values?"
+          ],
+          "responses": [
+            "Chris Adams discusses the critical distinction between creating and cultivating a company culture. He believes many companies manage to craft impressive cultures on paper but struggle to embed these values into their daily operations. For Adams, genuinely cultivating a culture means maintaining and nurturing these values over time, ensuring employees are engaged and aligned with the company's mission."
+          ]
+        },
+        {
+          "tag": "Resilience_During_Pandemic",
+          "patterns": [
+            "How did Chris Adams lead Ellis Adams Group during the pandemic?",
+            "What strategies did Adams employ to foster growth and positivity?",
+            "Can you share how daily messages of hope impacted Ellis Adams Group?"
+          ],
+          "responses": [
+            "During the pandemic, Chris Adams adopted an unconventional approach by focusing on growth and positivity. He provided daily doses of hope and encouragement through video messages, emphasizing resilience. This strategy not only helped the company navigate through the crisis but also led to its significant growth and expansion, illustrating the effectiveness of leadership that prioritizes hope and action in uncertain times."
+          ]
+        },
+        {
+          "tag": "Adaptive_Leadership",
+          "patterns": [
+            "What does adaptive leadership mean in the context of Ellis Adams Group?",
+            "How did Chris Adams' approach to leadership transform challenges into opportunities?",
+            "Can you illustrate the impact of positivity and adaptive leadership during difficult times?"
+          ],
+          "responses": [
+            "Adaptive leadership, as demonstrated by Chris Adams, involves maintaining a visible and engaged presence, providing practical advice and emotional support, and fostering a culture of positivity and determination. Adams' initiative to broadcast daily messages of hope not only uplifted his team but also sparked the launch of a new division, showcasing how visionary leadership can effectively transform challenges into opportunities for growth and innovation."
+          ]
+        }, {
+          "tag": "Personal_Journey_to_Hospitality",
+          "patterns": [
+            "How did Chris Adams enter the hospitality industry?",
+            "Can you describe Chris Adams' early experiences that led to a career in hospitality?",
+            "What role did accidental beginnings play in shaping Chris Adams' career?"
+          ],
+          "responses": [
+            "Chris Adams stumbled into the hospitality industry through a part-time job as a pool attendant at The Ritz-Carlton Hotel Company, without prior experience in hospitality. This accidental beginning sparked a passion for the industry, leading to a 20-plus-year journey of growth within Ritz-Carlton and Marriott International, and eventually to founding his own ventures. His unique start underscored the unpredictability of career paths and the potential within unforeseen opportunities."
+          ]
+        },
+        {
+          "tag": "Foundation_of_Values",
+          "patterns": [
+            "What early life experiences contributed to Chris Adams' values in hospitality?",
+            "How did Chris Adams' upbringing influence his approach to hospitality?",
+            "Can you share how family influences shaped Chris Adams' career?"
+          ],
+          "responses": [
+            "Growing up, Chris Adams was unknowingly prepped for the hospitality industry by his grandparents' generosity, who always had an open door for those in need, effectively becoming the best hoteliers he ever knew. This environment of unconditional hospitality and care instilled in him the values of helping and welcoming others, which later became the core of his ethos in the hospitality industry."
+          ]
+        },
+        {
+          "tag": "Leadership_and_Employee_Value",
+          "patterns": [
+            "What leadership philosophies does Chris Adams emphasize?",
+            "How does Chris Adams ensure his team feels valued and supported?",
+            "What strategies does Adams use to foster team success?"
+          ],
+          "responses": [
+            "Chris Adams views leadership as a responsibility to maximize his team's potential, exposing them to new opportunities and supporting their journey towards greatness. Influenced by his time at The Ritz-Carlton, which invested in his growth and believed in his potential, Adams strives to create a similar culture of trust, care, and investment in his team, focusing on a strategic vision for their future and making them feel an integral part of something bigger than themselves."
+          ]
+        },
+        {
+          "tag": "Navigating_Challenges_with_Innovation",
+          "patterns": [
+            "How did Chris Adams approach the challenges of the pandemic?",
+            "What innovative strategies did Ellis Adams Group employ during difficult times?",
+            "Can you discuss the impact of a positive outlook on company growth?"
+          ],
+          "responses": [
+            "Facing the pandemic, Chris Adams and Ellis Adams Group took an innovative approach by focusing on growth, positivity, and not following conventional crisis management tactics. Drawing lessons from the 2008 financial crisis, Adams chose to invest in his team, leading to the company not only retaining all its employees but also expanding. This approach, rooted in hope and the determination to succeed on his own terms, demonstrated the power of positive leadership and innovative thinking in overcoming adversity."
+          ]
+        },
+        {
+          "tag": "Industry_Perception_and_Reform",
+          "patterns": [
+            "What are Chris Adams' views on the hospitality industry's challenges?",
+            "How does Adams propose to change the perception of the hospitality industry?",
+            "Can you elaborate on Ellis Adams Group's different approach to the hospitality industry's structural issues?"
+          ],
+          "responses": [
+            "Chris Adams critiques the hospitality industry's fallback reputation and the perception of it as a thankless job. He believes the industry needs healing and a transformation in how it operates, from labor models to organizational structures. Adams envisions a disruptor emerging to change these perceptions, emphasizing that Ellis Adams Group aimed to be that catalyst during the pandemic by adopting unconventional strategies, thereby demonstrating that positive change and growth are possible with a reimagined approach."
+          ]
+        },{
+          "tag": "Impact_of_Mentorship",
+          "patterns": [
+            "How has mentorship shaped Chris Adams' career in hospitality?",
+            "What role did The Ritz-Carlton play in Chris Adams' professional development?",
+            "Can you share how mentorship influenced the ethos of Ellis Adams Group?"
+          ],
+          "responses": [
+            "Mentorship played a pivotal role in Chris Adams' career, with his early experiences at The Ritz-Carlton Hotel Company profoundly shaping his professional outlook and the foundational beliefs of Ellis Adams Group. The Ritz-Carlton's culture of excellence and employee investment awakened a deep-seated passion for hospitality in Adams, guiding his leadership philosophy and the emphasis on nurturing talent within his own company."
+          ]
+        },
+        {
+          "tag": "Discovering_Passion_and_Purpose",
+          "patterns": [
+            "How did Chris Adams discover his passion for the hospitality industry?",
+            "Can you describe the process of aligning passion with professional goals?",
+            "What advice does Chris Adams have for finding one's purpose in their career?"
+          ],
+          "responses": [
+            "Chris Adams' passion for hospitality emerged serendipitously through his accidental start in the industry. His journey underscores the importance of openness to unexpected opportunities and the transformative potential of discovering one's passion through experience. Adams believes in the power of aligning natural talents and passions, considering this alignment the 'sweet spot' for a fulfilling career. He encourages professionals to seek out and capitalize on moments that resonate deeply with their core values and interests."
+          ]
+        },
+        {
+          "tag": "Cultural_Transformation_in_Hospitality",
+          "patterns": [
+            "What challenges does Chris Adams see in the current hospitality industry culture?",
+            "How does Ellis Adams Group aim to transform the hospitality industry?",
+            "What are Chris Adams' views on creating a positive work environment in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams identifies a need for cultural transformation within the hospitality industry, critiquing its perception as a fallback option and advocating for a reevaluation of labor models and operational structures. He envisions Ellis Adams Group as a catalyst for change, challenging industry norms and fostering an environment where employees feel valued, motivated, and part of something larger than themselves. This vision involves not only structural changes but also a shift in mindset towards recognizing and celebrating the essential role of hospitality workers."
+          ]
+        },
+        {
+          "tag": "Strategic_Vision_for_Growth",
+          "patterns": [
+            "How did Chris Adams guide Ellis Adams Group's growth during the pandemic?",
+            "What strategic decisions contributed to the company's success in challenging times?",
+            "Can you elaborate on the vision behind Ellis Adams Group's expansion?"
+          ],
+          "responses": [
+            "During the pandemic, Chris Adams employed a strategic vision centered on growth, resilience, and positivity, drawing inspiration from past crises to guide Ellis Adams Group. By investing in people and pursuing expansion against the prevailing trend of contraction, Adams demonstrated a commitment to his values and a belief in the potential for positive outcomes even in difficult circumstances. This approach not only preserved the company's integrity but also propelled its growth, illustrating the effectiveness of leadership that combines strategic foresight with an unwavering commitment to core principles."
+          ]
+        },
+        {
+          "tag": "Long_Term_Effects_of_Decisions",
+          "patterns": [
+            "How does Chris Adams reflect on the long-term impact of his early career decisions?",
+            "What insight does Chris Adams offer on making choices with future outcomes in mind?",
+            "Can you discuss the importance of foresight in career planning according to Adams?"
+          ],
+          "responses": [
+            "Chris Adams reflects on the serendipity and significance of his early career decisions, appreciating the unforeseen long-term benefits of choices made without full awareness of their future impact. He emphasizes the importance of making decisions that align with one's values and the potential for growth, highlighting how seemingly small choices can lead to significant opportunities and fulfillment. Adams' insights underscore the value of foresight in career planning, encouraging individuals to consider the broader implications of their actions while staying true to their passion and purpose."
+          ]
+        },{
+          "tag": "Operational_Excellence_and_Guest_Focus",
+          "patterns": [
+            "How does creating habitual processes improve guest services in hospitality?",
+            "What operational strategies does Chris Adams advocate for in the hospitality industry?",
+            "Can you explain the importance of process-driven habits for team members?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the significance of transforming operational processes into habitual actions for team members, removing the need for them to consciously think about each step of their tasks. This approach allows staff to focus exclusively on guest engagement, enhancing the overall guest experience. By instilling process-driven habits, team members can execute their duties effortlessly, ensuring that their primary attention is on making guests feel valued and special, which is central to creating an irresistible culture within hospitality organizations."
+          ]
+        },
+        {
+          "tag": "Personal_Growth_to_Leadership",
+          "patterns": [
+            "Can you share Chris Adams' journey from a part-time pool attendant to CEO?",
+            "What insights does Chris Adams offer on finding one's purpose and climbing the career ladder?",
+            "How did Chris Adams' early experiences shape his leadership in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams' transformation from a part-time pool attendant at The Ritz-Carlton to the CEO of a global hospitality group is a testament to personal growth, the discovery of purpose, and strategic career advancement. Starting in an entry-level role with no prior industry experience, Adams quickly realized his passion for hospitality, propelling him through the ranks to eventually lead a company that serves the world's largest hospitality brands. His journey underscores the power of identifying one's purpose and leveraging every opportunity to fulfill it, ultimately shaping a leadership style that values innovation, guest focus, and the cultivation of a strong organizational culture."
+          ]
+        },
+        {
+          "tag": "Visionary_Outlook_and_Future_Growth",
+          "patterns": [
+            "What is Chris Adams' vision for the future of his company?",
+            "How does Chris Adams view the continuous growth and expansion of his hospitality group?",
+            "Can you discuss the strategies for sustaining growth in the hospitality industry according to Adams?"
+          ],
+          "responses": [
+            "Chris Adams expresses profound gratitude for the unexpected success and global expansion of his hospitality group, reflecting on the journey from its humble beginnings to becoming a leader in the industry. His visionary outlook for the future focuses on continuous growth, innovation, and exceeding the expectations of the largest hospitality brands they serve. Adams emphasizes the importance of adapting to industry changes, leveraging new opportunities for expansion, and maintaining an unwavering commitment to creating memorable guest experiences as key strategies for sustaining and accelerating growth in the competitive hospitality landscape."
+          ]
+        },{
+          "tag": "Pivotal_Moments_in_Career_Path",
+          "patterns": [
+            "Can you describe a pivotal moment that defined Chris Adams' career in hospitality?",
+            "How did orientation at The Ritz-Carlton influence Chris Adams' professional direction?",
+            "What impact did a key speaker have on Chris Adams during his early days in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams recounts a transformative moment during his orientation at The Ritz-Carlton, where a speaker's presentation resonated deeply with him, setting the course for his career in hospitality. Amidst hundreds of new employees, Adams experienced a profound sense of belonging and purpose, feeling as though the speaker was addressing him directly. This experience, early in his journey, not only solidified his passion for the industry but also marked the beginning of his commitment to excellence in hospitality, illustrating the significant impact of pivotal moments in shaping one's professional path."
+          ]
+        },
+        {
+          "tag": "Discovering_Professional_Calling",
+          "patterns": [
+            "How did Chris Adams realize his calling in the hospitality industry?",
+            "What role does belief in fate play in career decisions, according to Chris Adams?",
+            "Can you share an example of how a moment of inspiration led to a career in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams' realization of his calling in the hospitality industry came during a key moment of inspiration at The Ritz-Carlton's orientation. Despite not knowing exactly what his future in the industry would look like, Adams felt an undeniable connection to the values and ethos being presented, a feeling so strong that it seemed the message was intended solely for him. This experience underscores the importance of being open to inspiration and the belief that certain moments in life are predestined to guide us toward our true purpose, demonstrating how a deep sense of belonging and identification with a company's values can ignite a lifelong passion."
+          ]
+        },
+        {
+          "tag": "Resilience_and_Learning_from_Life",
+          "patterns": [
+            "What insights does Chris Adams offer on navigating life's challenges?",
+            "How does Chris Adams view the role of resilience in personal and professional growth?",
+            "Can you discuss the importance of learning from difficult experiences in shaping one's career?"
+          ],
+          "responses": [
+            "Chris Adams reflects on navigating life's challenges with a perspective that emphasizes resilience and the value of learning from every situation. He acknowledges the difficulty in seeing the bigger picture during tough times, yet highlights the importance of enduring these moments with the belief that they lead to growth and understanding. Adams' journey illustrates how overcoming obstacles and emerging stronger on the other side can provide clarity and direction, reinforcing the idea that challenges are not just hurdles but opportunities for profound personal and professional development."
+          ]
+        }, {
+          "tag": "Redefining_Luxury",
+          "patterns": [
+            "How does Chris Adams define luxury in the context of hospitality?",
+            "What misconceptions about luxury does Chris Adams aim to correct?",
+            "Can you explain the importance of feeling in the luxury experience according to Adams?"
+          ],
+          "responses": [
+            "Chris Adams redefines luxury not as an expression of opulence or high cost but as a feeling that connects deeply with the consumer. He emphasizes that luxury is about creating an emotional experience, irrespective of the economic value of the service or product. Adams challenges the conventional perception that luxury is exclusive to high-end brands, advocating instead for a luxury experience that can be delivered across various settings. By focusing on luxury as a sensory and emotional journey, Adams illustrates how any brand can cultivate a luxury experience that resonates with consumers on a profound level."
+          ]
+        },
+        {
+          "tag": "Storytelling_and_Brand_Identity",
+          "patterns": [
+            "How does storytelling play a role in creating a brand's identity?",
+            "What strategies does Chris Adams employ to connect brands with consumers?",
+            "Can you discuss the sensory approach to storytelling in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams highlights storytelling as a crucial tool in crafting a brand's identity and forging a connection with consumers. He advocates for a sensory approach to storytelling, where every aspect of the consumer's experience—from the visual appeal upon arrival to the aroma and interpersonal interactions—is meticulously curated to elicit emotions and create memorable moments. This method emphasizes the importance of engaging consumers' senses to enhance the narrative being told, ensuring that the story resonates on an emotional level and establishes a lasting bond between the brand and its audience."
+          ]
+        },
+        {
+          "tag": "Emotional_Connections_and_Consumer_Behavior",
+          "patterns": [
+            "How does creating emotional connections influence consumer behavior?",
+            "What role does sensory experience play in customer loyalty?",
+            "Can you elaborate on Chris Adams' approach to managing consumer emotions?"
+          ],
+          "responses": [
+            "Chris Adams underscores the power of emotional connections in shaping consumer behavior, stating that controlling emotions can effectively influence spending habits and loyalty. By designing sensory experiences that trigger specific emotional responses—from the initial aroma to personalized greetings—Adams' approach seeks to manage and direct consumer behavior. This strategy demonstrates how memorable, positive experiences can transform casual consumers into lifelong patrons, highlighting the critical role of emotions in the decision-making process and the broader consumer journey."
+          ]
+        },
+        {
+          "tag": "Social_Influence_on_Decision_Making",
+          "patterns": [
+            "What impact does social influence have on consumer decisions?",
+            "How does Chris Adams view the role of social influence in marketing?",
+            "Can you discuss the findings on decision-making influenced by social factors?"
+          ],
+          "responses": [
+            "Chris Adams draws attention to the significant role of social influence in consumer decision-making, with data indicating that over 90% of decisions are shaped by social factors rather than personal conviction. This insight into human behavior emphasizes the importance of leveraging social influence in marketing strategies, suggesting that brands must navigate and engage with these dynamics effectively to resonate with consumers. Adams' acknowledgment of social influence underscores the evolving landscape of consumer behavior, where social proof and communal endorsement become pivotal in the decision-making process."
+          ]
+        },{
+          "tag": "Fostering_Happiness_and_Value",
+          "patterns": [
+            "How does creating happiness impact consumer behavior and spending?",
+            "What is the role of emotional connections in defining the value of a service?",
+            "Can you explain the concept of money as a byproduct of delivering value?"
+          ],
+          "responses": [
+            "Chris Adams articulates that the ultimate goal of any service is to foster happiness, highlighting that happiness significantly influences consumer behavior and decision-making. He emphasizes that money is merely a byproduct of successfully delivering a product or service that elicits positive emotions. By creating an environment or experience that makes consumers feel valued and happy, businesses can drive loyalty and justify higher pricing, as consumers are willing to pay more for experiences that resonate with them on an emotional level. This approach underscores the importance of being intentional in delivering services that align with consumers' desires for meaningful and emotionally fulfilling experiences."
+          ]
+        },
+        {
+          "tag": "Brand_Identity_and_Consumer_Alignment",
+          "patterns": [
+            "How important is brand identity alignment in creating consumer loyalty?",
+            "What strategies can brands use to ensure their experience matches consumer expectations?",
+            "Can you discuss the impact of intentional branding on financial success?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the critical importance of aligning brand identity with the experience delivered to consumers. He advocates for brands to be intentional about what they stand for and the experiences they aim to deliver, ensuring every aspect of their service aligns with their core values. This alignment not only fosters consumer loyalty but also contributes to the brand's financial success. By consistently delivering experiences that match or exceed expectations, brands can create a loyal consumer base willing to pay a premium for the perceived value, highlighting that the essence of a successful brand lies in its ability to resonate with consumers on a deep, emotional level."
+          ]
+        },
+        {
+          "tag": "Navigating_Labor_Shortages_in_Hospitality",
+          "patterns": [
+            "What challenges do labor shortages present to the hospitality industry?",
+            "How can hospitality brands maintain quality experiences amid labor challenges?",
+            "Can you discuss strategies for addressing the impact of labor shortages on service delivery?"
+          ],
+          "responses": [
+            "Chris Adams acknowledges the brutal impact of labor shortages on the hospitality industry, emphasizing the industry's reliance on people to deliver quality experiences. Despite these challenges, he highlights the need for brands to innovate and adapt their operational strategies to ensure the delivery of exceptional services. This might include investing in employee training, leveraging technology to enhance efficiency, and finding creative ways to do more with less. Adams points out that maintaining a high standard of service is crucial, especially as consumer expectations for value and experience have heightened post-pandemic. Brands must navigate these challenges thoughtfully to sustain their commitment to providing memorable experiences, even in the face of staffing constraints."
+          ]
+        },{
+          "tag": "Addressing_Cost_Increases",
+          "patterns": [
+            "How do rising costs impact the consumer experience in hospitality?",
+            "What challenges do cost increases pose for delivering quality services?",
+            "Can you discuss strategies for managing elevated costs while maintaining service excellence?"
+          ],
+          "responses": [
+            "Chris Adams highlights the dilemma faced by the hospitality industry where rising costs lead to higher prices for consumers, potentially compromising the quality of the experience due to fewer available staff. He emphasizes the need for businesses to find innovative solutions to balance increased operational costs with the imperative to deliver exceptional experiences. Strategies may include optimizing operational efficiency, investing in employee training to enhance the quality of service, and leveraging technology to streamline processes. The goal is to ensure that despite cost pressures, the value delivered to consumers remains high, fostering loyalty and sustaining the brand's reputation for excellence."
+          ]
+        },
+        {
+          "tag": "Cultivating_vs_Creating_Culture",
+          "patterns": [
+            "What is the difference between creating and cultivating culture in an organization?",
+            "How can companies ensure their culture remains vibrant and lived by all employees?",
+            "Can you provide insights into maintaining culture authenticity over time?"
+          ],
+          "responses": [
+            "Chris Adams draws a crucial distinction between creating culture, which involves defining a company's values and vision, and cultivating culture, which requires embedding these values into everyday practices and behaviors. Cultivating culture demands consistent effort to ensure the organization's ethos is not just a concept but a living, breathing aspect of daily operations. Strategies for maintaining culture authenticity include regular training, open communication, celebrating examples of culture in action, and leadership embodying the company's values. Adams underscores the importance of alignment between the company's stated culture and its actual practices, ensuring employees feel connected to and believe in the organization's mission."
+          ]
+        },
+        {
+          "tag": "Nurturing_Internal_and_External_Customers",
+          "patterns": [
+            "How does nurturing internal customers impact the service provided to external customers?",
+            "What role does internal culture play in delivering external customer satisfaction?",
+            "Can you discuss the importance of 'filling the cup' of your team members?"
+          ],
+          "responses": [
+            "Chris Adams stresses the interconnectedness of internal culture and external customer satisfaction, pointing out that nurturing internal customers (employees) is essential for enabling them to deliver outstanding service to external customers. He uses the metaphor of 'filling the cup' to illustrate the importance of ensuring team members are supported, motivated, and engaged, so they, in turn, can 'pour out' positivity and exceptional service to clients. This approach requires a focus on creating a workplace environment that values and cares for its employees, fostering a sense of belonging and purpose. By investing in internal culture, organizations can enhance their capacity to deliver memorable experiences to external customers, ultimately driving loyalty and success."
+          ]
+        },{
+          "tag": "Happiness_as_a_Driving_Force",
+          "patterns": [
+            "How does aiming for happiness influence consumer behavior and business success?",
+            "What role does creating positive feelings play in a brand's strategy?",
+            "Can you elaborate on the relationship between happiness, decision-making, and spending?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes that the ultimate goal in life is to be happy, and this fundamental pursuit significantly influences consumer behavior, decision-making, and spending habits. By focusing on creating positive feelings, brands can foster loyalty and drive behavior that benefits the bottom line. Happiness isn't just a lofty ideal; it's a strategic asset that, when effectively cultivated, can lead to substantial financial rewards for businesses that prioritize emotional connections and align their operations with the goal of making their customers feel valued and appreciated."
+          ]
+        },
+        {
+          "tag": "Embracing_Change_for_Growth",
+          "patterns": [
+            "How important is it for companies to embrace change in their pursuit of growth?",
+            "What strategies can organizations implement to become more adaptable?",
+            "Can you discuss the challenges of change management within a growth-oriented company?"
+          ],
+          "responses": [
+            "Chris Adams advocates for the necessity of embracing change to achieve growth and avoid stagnation. Recognizing that humans are naturally resistant to change, he stresses the importance of cultivating an organizational culture that encourages innovation and experimentation. By allowing teams to try new approaches and being open to different methods of operation, companies can evolve and improve. Overcoming the discomfort associated with change is crucial for maintaining an upward trajectory and ensuring long-term success in an ever-evolving business landscape."
+          ]
+        },
+        {
+          "tag": "Driving_Results_Through_Focused_Execution",
+          "patterns": [
+            "What is Chris Adams' approach to achieving results within an organization?",
+            "How can businesses track and measure the impact of their strategic initiatives?",
+            "Can you explain the importance of setting a clear scoreboard for organizational goals?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the importance of results-driven execution, advocating for a focused approach that prioritizes a small number of impactful objectives. Drawing inspiration from Stephen Covey's Four Disciplines of Execution, he suggests concentrating on 3 to 5 critical goals that promise the greatest impact. Establishing a clear scoreboard allows for tracking progress and ensures accountability, making it easier to embed successful strategies into the organization's habits. This methodical approach to execution helps in creating a culture of results orientation and continuous improvement."
+          ]
+        },
+        {
+          "tag": "Importance_of_Processes_and_Accountability",
+          "patterns": [
+            "Why are written processes crucial in the hospitality industry?",
+            "Can you discuss the role of accountability in enforcing standard operating procedures?",
+            "How do processes and accountability contribute to habit formation and desired results?"
+          ],
+          "responses": [
+            "Chris Adams underscores the significance of having clearly defined and written processes, or standard operating procedures (SOPs), as the foundation for consistent execution in the hospitality industry. He identifies accountability as the linchpin in ensuring these processes are followed, acknowledging that while it can be challenging due to the discomfort associated with confrontation, it's essential for achieving the desired outcomes. By enforcing accountability, organizations can transition from merely having processes to cultivating habits that naturally lead to the results they aim to achieve, highlighting the interconnectedness of processes, accountability, and successful habit formation."
+          ]
+        },{
+          "tag": "Investing_in_People",
+          "patterns": [
+            "Why is investing in employees crucial in the hospitality industry?",
+            "How can organizations improve employee retention and motivation?",
+            "What was the turning point in Chris Adams' career path?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the importance of celebrating and investing in people within the hospitality industry to overcome challenges in retaining and motivating employees.",
+            "Organizations can improve retention and motivation by genuinely investing in their staff, recognizing their contributions, and providing meaningful growth opportunities.",
+            "The turning point in Chris Adams' career was his unexpected entry into the hospitality industry through a part-time job at the Ritz Carlton, which evolved into a profound calling."
+          ]
+        },
+        {
+          "tag": "Essence_of_Hospitality",
+          "patterns": [
+            "What defines the essence of hospitality for Chris Adams?",
+            "How did Chris Adams' upbringing influence his approach to hospitality?",
+            "Can you share insights on Chris Adams' philosophy towards service and customer care?"
+          ],
+          "responses": [
+            "Chris Adams believes the essence of hospitality is deeply rooted in serving others, a value ingrained in him from a young age through his family's open and welcoming home environment.",
+            "His upbringing in a home always open to those in need significantly influenced his service-oriented approach and customer care philosophy."
+          ]
+        },
+        {
+          "tag": "Embracing_Failure_in_Hospitality",
+          "patterns": [
+            "How does Chris Adams view failure in the hospitality industry?",
+            "What role does embracing risks and failures play in fostering creativity?",
+            "Can you elaborate on the importance of learning from failures according to Chris Adams?"
+          ],
+          "responses": [
+            "Chris Adams views failure as an essential learning tool and an integral part of growth and innovation within the hospitality industry.",
+            "Embracing risks and learning from failures is crucial for pushing boundaries and fostering creativity in hospitality, according to Chris Adams."
+          ]
+        },{
+          "tag": "Leadership_and_Growth",
+          "patterns": [
+            "How does Chris Adams define effective leadership in hospitality?",
+            "What role does personal growth play in Chris Adams' approach to leadership?",
+            "Can leadership influence the success of a hospitality business?"
+          ],
+          "responses": [
+            "Chris Adams defines effective leadership as guiding others to exceed their own expectations, fostering an environment where team members are empowered to succeed.",
+            "Personal growth through challenges is central to Chris Adams' leadership approach, emphasizing the transformative power of hospitality and a service-oriented mindset.",
+            "According to Chris Adams, leadership greatly influences the success of a hospitality business by cultivating a culture that views failure as a growth opportunity."
+          ]
+        },
+        {
+          "tag": "Cultivating_Trust_and_Investment",
+          "patterns": [
+            "How can hospitality organizations rebuild trust with their employees?",
+            "What is Chris Adams' view on investing in employee well-being?",
+            "How does genuine investment in people contribute to overcoming industry challenges?"
+          ],
+          "responses": [
+            "Chris Adams believes rebuilding trust with employees requires authentic engagement with their aspirations and providing them with a sense of value and belonging.",
+            "Investing in employee well-being is critical for Chris Adams, who advocates for a focus beyond immediate operational needs to long-term development.",
+            "Genuine investment in people's growth and well-being, according to Chris Adams, is foundational to addressing labor struggles and enhancing the hospitality sector."
+          ]
+        },
+        {
+          "tag": "Addressing_Labor_Struggles",
+          "patterns": [
+            "What causes labor struggles in the hospitality industry according to Chris Adams?",
+            "How can the hospitality industry overcome its current labor challenges?",
+            "What paradigm shift does Chris Adams advocate for in hospitality leadership?"
+          ],
+          "responses": [
+            "Chris Adams attributes labor struggles not to financial issues but to a lack of genuine investment in employees, emphasizing the need for a paradigm shift in leadership.",
+            "Overcoming labor challenges involves establishing trust, reevaluating compensation, benefits, and fostering an environment where employees feel valued, per Chris Adams.",
+            "Chris advocates for a more humane and empowering leadership approach, focusing on personal growth, celebrating team success, and cultivating a culture of trust."
+          ]
+        },{
+          "tag": "Investment_in_Employees",
+          "patterns": [
+            "Why is it crucial to provide support and opportunities for hospitality employees?",
+            "How does lack of preparation for hospitality professionals affect the industry?",
+            "What is the impact of not investing in employees on trust and labor shortages?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the critical need for substantial support and growth opportunities for employees, stating that failing to equip hospitality professionals with necessary tools and training leads to trust deficits and labor shortages.",
+            "He likens the absurdity of expecting professionals to perform without proper preparation to a lawyer being unprepared for court, underlining this as a fundamental issue in the hospitality industry."
+          ]
+        },
+        {
+          "tag": "Defining_Luxury_in_Hospitality",
+          "patterns": [
+            "How does Chris Adams define luxury in hospitality?",
+            "What role do the first four senses play in creating a luxury experience?",
+            "Why is taste considered subjective in the context of luxury hospitality?"
+          ],
+          "responses": [
+            "Chris Adams challenges conventional notions of luxury, advocating for luxurious feelings and experiences created through exceptional service and attention to sensory aspects, rather than physical opulence.",
+            "He highlights the importance of the first four senses in hospitality, pointing out that while taste is significant, it is subjective and the least controllable aspect in ensuring guest satisfaction."
+          ]
+        },
+        {
+          "tag": "Leadership_and_Radical_Candor",
+          "patterns": [
+            "What differentiates successful hospitality properties from unsuccessful ones according to Chris Adams?",
+            "How does 'radical candor' improve organizational performance in hospitality?",
+            "Why are tough conversations and confrontation necessary in hospitality leadership?"
+          ],
+          "responses": [
+            "Chris Adams identifies effective leadership, understanding of roles, and purposes as the key differentiators for successful properties, emphasizing the failure of structures without these elements.",
+            "'Radical candor' fosters open and honest communication, enabling teams to feel valued and understood, which facilitates accountability and enhances performance, according to Adams.",
+            "He argues that avoiding necessary tough conversations leads to a lack of accountability and successful habits within the team, stressing the importance of confronting issues directly."
+          ]
+        },{
+          "tag": "Meeting_Expectations_in_Luxury_Properties",
+          "patterns": [
+            "How can luxury properties ensure they meet guest expectations?",
+            "What happens when luxury experiences don't match the price?",
+            "Why is it important for hospitality businesses to deliver on their marketing promises?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes that guests are willing to pay high prices as long as the experience matches the cost, highlighting the need for luxury properties to deliver on marketing promises to avoid dissatisfaction.",
+            "Failure to meet marketed experiences often leads to guest dissatisfaction, not due to unreasonable demands but due to a failure to deliver promised experiences."
+          ]
+        },
+        {
+          "tag": "Leadership_Accountability_and_Communication",
+          "patterns": [
+            "What role does leadership play in the hospitality industry according to Chris Adams?",
+            "How can genuine, open communication enhance service delivery?",
+            "Why is consistency in service crucial for hospitality businesses?"
+          ],
+          "responses": [
+            "Chris Adams underscores the importance of leadership, accountability, and open communication for consistency in service, suggesting these are key to enhancing service delivery and meeting guest expectations.",
+            "Prioritizing genuine communication and consistent service allows hospitality businesses to navigate the complexities of managing high-end properties and clientele."
+          ]
+        },
+        {
+          "tag": "Importance_of_Reflective_Thinking",
+          "patterns": [
+            "How does reflective thinking impact Chris Adams' daily routine?",
+            "Why is it important not to let emotions dictate behavior in hospitality?",
+            "What role does reflective thinking play in recognizing past decisions' impact?"
+          ],
+          "responses": [
+            "Chris Adams stresses the crucial role of reflective thinking in ensuring the right headspace for maximizing interactions, highlighting its importance in recognizing how past decisions influence the future.",
+            "Reflective thinking helps Adams not to let emotions dictate behavior, understanding the pivotal moments that shaped his and others' lives."
+          ]
+        },
+        {
+          "tag": "Culture_as_the_Organization's_Lifeblood",
+          "patterns": [
+            "What does culture mean to Chris Adams in a hospitality context?",
+            "How can maintaining a consistent message benefit a hospitality brand?",
+            "Why is culture considered the DNA of an organization?"
+          ],
+          "responses": [
+            "Chris Adams views culture as the lifeblood and DNA of an organization, essential for guiding decisions and behaviors that align with the company's values and identity.",
+            "Maintaining a consistent message and ethos reflective of the brand's identity is crucial for ensuring actions are true to the brand's essence, according to Adams."
+          ]
+        },
+        {
+          "tag": "Advice_for_Young_Professionals",
+          "patterns": [
+            "What advice does Chris Adams give to young professionals in hospitality?",
+            "How important is hard work and delayed gratification in career development?",
+            "Why should young hospitality professionals seek mentors and build connections?"
+          ],
+          "responses": [
+            "Chris Adams advises young professionals to embrace hard work, value delayed gratification, and appreciate learning opportunities at every step for career advancement.",
+            "He emphasizes the importance of surrounding oneself with successful individuals, seeking mentors, and building genuine connections for a fulfilling and impactful career in hospitality."
+          ]
+        },{
+          "tag": "EAG_Accomplishments",
+          "patterns": [
+            "What are some accomplishments of the Ellis Adams Group?",
+            "Can you tell me about EAG's achievements?"
+          ],
+          "responses": [
+            "The Ellis Adams Group has achieved numerous milestones, including partnerships with Marriott International to launch 100 hotels worldwide, encompassing renowned brands like the Ritz-Carlton, St. Regis, Westin, and Renaissance."
+          ]
+        },
+        {
+          "tag": "Labor_Shortages_Challenges",
+          "patterns": [
+            "What challenges does the hospitality industry face regarding labor shortages?",
+            "Can you explain the impact of labor shortages on hospitality?"
+          ],
+          "responses": [
+            "Labor shortages pose significant challenges to the hospitality industry, particularly in ensuring high-quality service and customer satisfaction due to the industry's reliance on human interaction."
+          ]
+        },
+        {
+          "tag": "Adams_Strategy_for_Labor",
+          "patterns": [
+            "What is Chris Adams' strategy for addressing labor shortages in hospitality?",
+            "How does Chris Adams propose to tackle labor challenges in the industry?"
+          ],
+          "responses": [
+            "Chris Adams advocates for rethinking the industry's approach to valuing and engaging its workforce, emphasizing the need for an environment where employees feel genuinely valued and supported in their long-term well-being."
+          ]
+        },
+        {
+          "tag": "Impact_of_COVID_19",
+          "patterns": [
+            "How has the COVID-19 pandemic impacted the hospitality industry?",
+            "What changes has COVID-19 brought to hospitality?"
+          ],
+          "responses": [
+            "The COVID-19 pandemic has led to a marked shift in workforce attitudes, prompting a reevaluation of career priorities and expectations within the hospitality industry."
+          ]
+        },
+        {
+          "tag": "Future_of_Hotels",
+          "patterns": [
+            "What is Chris Adams' vision for the future of hotels?",
+            "How does Chris Adams envision the evolution of hotels?"
+          ],
+          "responses": [
+            "Chris Adams envisions hotels as dynamic community hubs, leveraging technology to enhance efficiency and guest experiences, while integrating various services beyond traditional lodging."
+          ]
+        },
+        {
+          "tag": "Cultural_Transformation",
+          "patterns": [
+            "How does Chris Adams propose to transform the culture of the hospitality industry?",
+            "What are Chris Adams' strategies for cultural change in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams advocates for creating a more respectful and supportive work environment within the hospitality industry, recognizing and nurturing employees' contributions and growth."
+          ]
+        },
+        {
+          "tag": "Leadership_Insights",
+          "patterns": [
+            "What leadership insights does Chris Adams offer for the hospitality industry?",
+            "Can you share Chris Adams' leadership advice for hotel CEOs?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the critical importance of investing in people as the key to the hospitality industry's recovery and future prosperity."
+          ]
+        },
+        {
+          "tag": "Aspiring_Professionals_Guidance",
+          "patterns": [
+            "What guidance does Chris Adams offer for aspiring professionals in hospitality?",
+            "Can you share Chris Adams' advice for those aspiring to work in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams' journey from entry-level to CEO serves as a guiding beacon for aspiring professionals, highlighting the importance of seizing opportunities, learning from mentors, and staying resilient in the face of challenges."
+          ]
+        }, {
+          "tag": "Labor_Shortage_Challenges",
+          "patterns": [
+            "What are the challenges posed by labor shortages in the hospitality industry?",
+            "How does the labor shortage impact hospitality?"
+          ],
+          "responses": [
+            "Labor shortages in the hospitality industry have a pronounced impact due to the sector's reliance on human interaction. To address this challenge, Chris Adams suggests fostering a work environment where employee well-being and future prospects are prioritized, going beyond traditional incentives like higher wages and benefits."
+          ]
+        },
+        {
+          "tag": "Cultural_Shift_in_Hospitality",
+          "patterns": [
+            "How does Chris Adams propose to shift the culture within the hospitality industry?",
+            "What is Adams' perspective on cultural change in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams advocates for a cultural shift within the hospitality industry, recognizing employees as vital contributors to the guest experience rather than mere operational components. This shift enhances employee retention, satisfaction, and ultimately the guest experience."
+          ]
+        },
+        {
+          "tag": "Future_of_Hotel_Design",
+          "patterns": [
+            "What is Chris Adams' vision for the future of hotel design?",
+            "How does Adams envision the evolution of hotel spaces?"
+          ],
+          "responses": [
+            "Chris Adams envisions hotels as integral parts of communities, offering diverse services and experiences beyond traditional lodging. This vision challenges the conventional hotel model, requiring innovative design and technology integration to create versatile and technology-driven spaces."
+          ]
+        },
+        {
+          "tag": "Adapting_to_Workforce_Dynamics",
+          "patterns": [
+            "How does Adams suggest adapting to changing workforce dynamics in hospitality?",
+            "What is Adams' advice on aligning with shifting workforce priorities?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the importance of aligning hospitality offerings with the changing priorities of the workforce, offering meaningful career paths aligned with individuals' values and life goals, particularly in light of the pandemic."
+          ]
+        },
+        {
+          "tag": "Leadership_Advice",
+          "patterns": [
+            "What leadership advice does Chris Adams offer to industry professionals?",
+            "Can you share Adams' insights on leadership in hospitality?"
+          ],
+          "responses": [
+            "Chris Adams' journey in the hospitality industry exemplifies ambition, learning, and resilience. His advice to invest in people underscores the industry's success's dependence on its workforce, guiding industry leaders to prioritize employee well-being and development for future prosperity."
+          ]
+        },{
+          "tag": "Starting_Own_Business",
+          "patterns": [
+            "What was Chris Adams' thought process behind starting his own business?",
+            "Why did Chris Adams decide to start his own business?"
+          ],
+          "responses": [
+            "Chris Adams felt a desire for more creativity and innovation than his previous career allowed. He believed in taking risks and pushing boundaries, leading him to start his own business."
+          ]
+        },
+        {
+          "tag": "About_Ellis_Adams_Group",
+          "patterns": [
+            "Can you tell us more about Ellis Adams Group?",
+            "What does Ellis Adams Group specialize in?"
+          ],
+          "responses": [
+            "Ellis Adams Group is a lifestyle/luxury firm primarily focused on the hospitality industry. They handle concept development, branding, design, and operational execution. Their standout feature is not only their team's skill sets but also the culture they embody, characterized by fearlessly pushing boundaries and doing what's right, even at the expense of profit."
+          ]
+        },
+        {
+          "tag": "Showing_Best_Time",
+          "patterns": [
+            "If Chris Adams wanted to show his best friend the best time in LA, where would he take them?",
+            "Can you provide an itinerary for a week-long trip in LA suggested by Chris Adams?"
+          ],
+          "responses": [
+            "Chris Adams would start in the west side of LA, exploring Malibu, Venice, and Santa Monica, then move to Beverly Hills and West Hollywood, experiencing Rodeo Drive and enjoying dinner in Hollywood. The trip would conclude in Downtown LA, visiting various neighborhoods and possibly catching a Lakers or Dodgers game."
+          ]
+        },
+        {
+          "tag": "Credit_and_Recognition",
+          "patterns": [
+            "Who deserves credit and recognition according to Chris Adams?",
+            "To whom does Chris Adams attribute his success?"
+          ],
+          "responses": [
+            "Chris Adams credits his parents for instilling confidence in him from an early age. He also acknowledges the influence of mentors and the support of his daughters and partner in pushing him to become the best version of himself."
+          ]
+        },{
+          "tag": "Preparing_for_Obstacles",
+          "patterns": [
+            "How do you prepare for unknown obstacles when running your business?",
+            "What's your approach to handling unexpected challenges in business?"
+          ],
+          "responses": [
+            "Chris Adams believes in being adaptable and nimble, comfortable with discomfort. He acknowledges that change is difficult but necessary as obstacles arise."
+          ]
+        },
+        {
+          "tag": "Biggest_Entrepreneurial_Lesson",
+          "patterns": [
+            "What's the biggest lesson you've learned as an entrepreneur?",
+            "Can you share a valuable lesson you've learned as a business owner?"
+          ],
+          "responses": [
+            "Chris Adams learned that failing does not equate to being a failure. He emphasizes the importance of being a student of leadership, as understanding and practicing effective leadership is invaluable."
+          ]
+        },
+        {
+          "tag": "Morning_Routine",
+          "patterns": [
+            "Do you have a morning routine to start your day on the right foot?",
+            "How do you ensure you start your day with a positive mindset?"
+          ],
+          "responses": [
+            "Chris Adams starts his day by getting into the right headspace, recognizing the importance of perspective in decision-making. While not every day is great, he ensures his perspective is aligned to make sound decisions and avoid being driven by emotion."
+          ]
+        },
+        {
+          "tag": "Conquering_Moments_of_Doubt",
+          "patterns": [
+            "How do you conquer moments of doubt as an entrepreneur?",
+            "What motivates you through moments of doubt?"
+          ],
+          "responses": [
+            "Chris Adams leans on the quote 'easy never changed the world' from one of his mentors, emphasizing that giving up isn't an option when pursuing your purpose and beliefs."
+          ]
+        },
+        {
+          "tag": "Responsibilities_as_a_Business_Owner",
+          "patterns": [
+            "What are your responsibilities as a business owner?",
+            "Can you outline your duties as a business owner?"
+          ],
+          "responses": [
+            "Chris Adams' responsibilities as a business owner include casting a vision, leading the team, managing the business, and ensuring a balance among these responsibilities to avoid distractions."
+          ]
+        },
+        {
+          "tag": "Strategic_Growth_Planning",
+          "patterns": [
+            "How well-versed are you in planning and strategic growth?",
+            "Was planning and strategic growth easy for you?"
+          ],
+          "responses": [
+            "Chris Adams acknowledges that strategic growth often leads to unexpected directions, necessitating adaptability and organic evolution within the organization."
+          ]
+        },
+        {
+          "tag": "Company_Culture_Importance",
+          "patterns": [
+            "How important is company culture?",
+            "What's your top tip for fostering a positive company culture?"
+          ],
+          "responses": [
+            "Chris Adams considers company culture crucial for long-term success. He emphasizes the need for daily reinforcement of the company's culture, even during tough times, as it directly impacts employee and guest experiences."
+          ]
+        },
+        {
+          "tag": "New_Product_Launches",
+          "patterns": [
+            "Are there any new product launches we should know about?",
+            "Do you have any upcoming product releases?"
+          ],
+          "responses": [
+            "Chris Adams mentions a new website launch aimed at immersive user experiences and a beverage app empowering brands and bartenders to enhance revenue and guest experiences."
+          ]
+        },
+        {
+          "tag": "Technological_Advancement_Strategy",
+          "patterns": [
+            "How does technological advancement fit into your business strategy?",
+            "What role does technology play in the strategic direction of your business?"
+          ],
+          "responses": [
+            "In the hospitality industry, Chris Adams emphasizes the importance of embracing technology to enhance the guest experience while maintaining the human touch. Integrating technology into operations is a priority for his company."
+          ]
+        },
+        {
+          "tag": "Word_of_Mouth_Advantage",
+          "patterns": [
+            "Is word of mouth working to your advantage?",
+            "How important is word of mouth for your business?"
+          ],
+          "responses": [
+            "Chris Adams acknowledges the power of word of mouth in building relationships and brand reputation. He attributes much of his brand's growth to positive word of mouth and emphasizes the significance of nurturing relationships."
+          ]
+        },
+        {
+          "tag": "Impact_on_Women",
+          "patterns": [
+            "What impact do you hope to have on women through your business?",
+            "How do you contribute to supporting women through your business?"
+          ],
+          "responses": [
+            "Chris Adams is committed to supporting and uplifting women through his business. He emphasizes the importance of diversity within his company, including women in senior leadership roles, and aims to provide respect, opportunity, and confidence to all employees."
+          ]
+        },
+        {
+          "tag": "Strategic_Partnerships_and_Upgrades",
+          "patterns": [
+            "Do you have any strategic partnerships or upgrades in the pipeline?",
+            "Can you share any upcoming strategic collaborations or improvements?"
+          ],
+          "responses": [
+            "Chris Adams mentions signing a partnership with a large hotel management company and plans for lifestyle and luxury leadership in hotels across the country. This partnership is one of many projects in progress."
+          ]
+        },{
+          "tag": "Exciting_New_Hotels",
+          "patterns": [
+            "Can you tell us about some exciting new hotels opening this quarter?",
+            "What are some unique features of the hotels opening soon?"
+          ],
+          "responses": [
+            "Ellis Adams Group is thrilled about the diverse range of hotels opening this quarter, including luxury brands like The Ritz-Carlton, St. Regis, and W, as well as boutique luxury properties. Each hotel is designed to reflect its unique location and story, ensuring a one-of-a-kind experience for guests. While the service and luxury aspects are consistent across brands, the design and ambiance are tailored to create distinct and memorable experiences."
+          ]
+        },
+        {
+          "tag": "Hotel_Diversity",
+          "patterns": [
+            "What types of hotels are opening right now?",
+            "Can you describe the variety of hotels opening this quarter?"
+          ],
+          "responses": [
+            "The hotels opening range from luxury brands like The Ritz-Carlton, St. Regis, and W to boutique luxury properties. Each hotel is crafted to embody the essence of its location and narrative, offering unique experiences tailored to the individuality of the destination."
+          ]
+        },
+        {
+          "tag": "Customized_Hotel_Experiences",
+          "patterns": [
+            "How do hotels ensure unique experiences for guests?",
+            "What makes each hotel's experience distinct?"
+          ],
+          "responses": [
+            "Hotel developers, owners, and designers focus on customizing each hotel to reflect its location and story, ensuring no two properties are alike. While maintaining consistent levels of service and luxury, the design, ambiance, and amenities are tailored to create memorable experiences specific to each hotel."
+          ]
+        },
+        {
+          "tag": "Hotel_Development_Diversity",
+          "patterns": [
+            "What makes hotel development diverse?",
+            "How do hotels differentiate themselves in development?"
+          ],
+          "responses": [
+            "Hotel developers strive to ensure diversity in their projects by tailoring each property to its location and narrative. This approach ensures that hotels stand out and offer unique experiences, even within the same brand or chain."
+          ]
+        }, {
+          "tag": "Approach_to_New_Projects",
+          "patterns": [
+            "How do you approach each new project?",
+            "What is your strategy when starting a new project?"
+          ],
+          "responses": [
+            "Chris Adams approaches each new project with gratitude for the opportunity and a mindset of learning. At Ellis Adams Group, they focus on understanding the client's goals and vision, ensuring alignment with their interpretation of success. By listening attentively and tailoring their approach to meet the client's objectives, they aim to add value and achieve successful outcomes."
+          ]
+        },
+        {
+          "tag": "Key_Factors_in_Project_Design_and_Execution",
+          "patterns": [
+            "What are some key factors you consider when designing and executing a hospitality project?",
+            "Can you outline the important elements in project design and execution?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the importance of understanding the client's definition of success and aligning goals and initiatives accordingly. By listening to clients and focusing on their happiness and vision, Ellis Adams Group ensures that projects meet expectations and deliver the desired outcomes."
+          ]
+        },
+        {
+          "tag": "Learning_and_Value_Addition",
+          "patterns": [
+            "How do you ensure you add value to projects?",
+            "What role does learning play in your approach to projects?"
+          ],
+          "responses": [
+            "Chris Adams believes in continuously learning and leveraging their unique perspective gained from diverse projects to add value to clients. By listening attentively, understanding client goals, and aligning initiatives with their vision, Ellis Adams Group ensures successful project outcomes."
+          ]
+        },
+        {
+          "tag": "Client_Success_Definition",
+          "patterns": [
+            "How do you identify success for a project?",
+            "What factors determine project success in your view?"
+          ],
+          "responses": [
+            "Chris Adams focuses on understanding the client's interpretation of success for each project. By aligning goals and initiatives with the client's vision, Ellis Adams Group ensures that project outcomes meet or exceed expectations, ultimately leading to client satisfaction."
+          ]
+        },{
+          "tag": "Adapting_to_COVID_19",
+          "patterns": [
+            "How has Ellis Adams Group adapted its approach to hospitality consulting during the COVID-19 pandemic?",
+            "What changes has Ellis Adams Group made in response to the pandemic?"
+          ],
+          "responses": [
+            "Chris Adams discusses how the luxury hospitality industry has unexpectedly flourished during the pandemic, contrary to initial fears. Despite increased costs, consumers are willing to spend more for a high-quality experience. Ellis Adams Group has adapted by becoming more creative in delivering luxury experiences with reduced staffing, finding innovative solutions to maintain service levels."
+          ]
+        },
+        {
+          "tag": "Emerging_Trends_in_Luxury_Hospitality",
+          "patterns": [
+            "What are some new trends and changes emerging in the luxury hospitality industry due to the pandemic?",
+            "Can you discuss the evolving trends in luxury hospitality post-pandemic?"
+          ],
+          "responses": [
+            "Chris Adams highlights the continued success of the luxury hospitality segment post-pandemic, driven by consumer demand for high-value experiences. Despite staffing reductions, luxury brands are delivering exceptional service. Ellis Adams Group is working creatively with properties to maintain luxury standards while adapting to new operational models."
+          ]
+        },
+        {
+          "tag": "Consumer_Preference_for_Value",
+          "patterns": [
+            "Why do you think luxury brands are performing better post-pandemic?",
+            "What factors contribute to the success of luxury brands despite the pandemic?"
+          ],
+          "responses": [
+            "Chris Adams attributes the success of luxury brands post-pandemic to consumer preference for value. Despite increased costs, consumers are willing to pay more for a superior experience. Luxury brands offer high-quality service and amenities, providing added value to justify higher prices."
+          ]
+        },
+        {
+          "tag": "Creative_Adaptation_Strategies",
+          "patterns": [
+            "How has Ellis Adams Group creatively adapted to the challenges posed by the pandemic?",
+            "Can you provide examples of creative adaptation strategies employed by Ellis Adams Group?"
+          ],
+          "responses": [
+            "Chris Adams discusses how Ellis Adams Group has become creative in maintaining luxury standards with reduced staffing. They work closely with properties to develop innovative solutions for delivering exceptional guest experiences while optimizing operational efficiency."
+          ]
+        }, {
+          "tag": "Beverage_Innovation",
+          "patterns": [
+            "Can you discuss recent innovations in beverage programs at Ellis Adams Group?",
+            "What are some of the latest advancements in hospitality beverage programs?"
+          ],
+          "responses": [
+            "Chris Adams explores recent innovations in beverage programs, highlighting the importance of data-driven decision-making and sustainability. Ellis Adams Group prioritizes sustainability efforts, ensuring programs minimize waste and align with environmental stewardship. Innovations such as batched cocktails and tap systems enhance speed of service and consistency, benefitting both guests and operations."
+          ]
+        },
+        {
+          "tag": "Challenges_and_Opportunities",
+          "patterns": [
+            "What do you see as the biggest challenges and opportunities facing the luxury hospitality sector?",
+            "How does Ellis Adams Group stay ahead of the curve in the competitive luxury hospitality market?"
+          ],
+          "responses": [
+            "Chris Adams identifies culture as a significant challenge and opportunity in the luxury hospitality sector, emphasizing the role of leadership in shaping organizational culture. Ellis Adams Group focuses on cultivating a strong culture of leadership and empowerment to ensure alignment between brand values and employee practices. By investing in people and fostering genuine connections, the company strives to thrive amidst industry challenges."
+          ]
+        },
+        {
+          "tag": "Advice_for_Aspiring_Professionals",
+          "patterns": [
+            "What advice do you have for aspiring hospitality professionals?",
+            "How can individuals build successful careers in the hospitality industry?"
+          ],
+          "responses": [
+            "Chris Adams offers advice to aspiring hospitality professionals, emphasizing the value of relationships and the importance of hard work and resilience. Building strong connections and embracing challenges with purposeful intent are key to success in the industry. By learning from mistakes and pushing boundaries, individuals can position themselves for growth and advancement."
+          ]
+        },
+        {
+          "tag": "Sustainability_in_Beverage_Programs",
+          "patterns": [
+            "Could you elaborate on how Ellis Adams Group integrates sustainability into its beverage programs?",
+            "What sustainability initiatives does Ellis Adams Group implement in its beverage offerings?"
+          ],
+          "responses": [
+            "Chris Adams underscores the significance of sustainability in beverage programs at Ellis Adams Group. The company adopts eco-conscious practices, such as minimizing waste and using environmentally friendly materials. By focusing on sustainable sourcing, waste reduction, and responsible consumption, Ellis Adams Group aims to create a positive impact on both the environment and guest experiences."
+          ]
+        },
+        {
+          "tag": "Cultural_Leadership",
+          "patterns": [
+            "How does Ellis Adams Group cultivate a culture of leadership within its organization?",
+            "What role does leadership play in shaping the culture at Ellis Adams Group?"
+          ],
+          "responses": [
+            "Chris Adams emphasizes the importance of leadership in shaping organizational culture at Ellis Adams Group. The company prioritizes leadership development and empowerment, fostering an environment where employees are encouraged to take ownership and initiative. By aligning leadership practices with company values and promoting open communication, Ellis Adams Group cultivates a culture of collaboration, innovation, and excellence."
+          ]
+        },
+        {
+          "tag": "Industry_Trends_and_Innovations",
+          "patterns": [
+            "What emerging trends and innovations do you see in the luxury hospitality sector?",
+            "How does Ellis Adams Group anticipate and adapt to industry trends and innovations?"
+          ],
+          "responses": [
+            "Chris Adams discusses emerging trends and innovations in the luxury hospitality sector, such as personalized experiences, technology integration, and sustainable practices. Ellis Adams Group stays ahead of the curve by leveraging market research, industry insights, and client feedback to anticipate and adapt to changing trends. By embracing innovation and creativity, the company delivers cutting-edge solutions that enhance guest experiences and drive business growth."
+          ]
+        },{
+          "tag": "Exciting_Projects",
+          "patterns": [
+            "Can you share any exciting projects you have in the works?",
+            "What new ventures or projects are you currently working on?"
+          ],
+          "responses": [
+            "Chris Adams discusses two exciting projects in the works. Firstly, Ellis Adams Group is partnering with a hotel group in Los Angeles to develop six to seven food and beverage concepts within an iconic location. This project aims to redefine the traditional hotel model and focus on community engagement while offering a lifestyle luxury experience. Additionally, Chris is launching a podcast in March, focusing on sharing insights and experiences from industry experts across various sectors. The podcast aims to inspire and motivate listeners by discussing journeys from failures to successes, providing valuable information and guidance to aspiring professionals."
+          ]
+        },{
+          "tag": "Mixology",
+          "patterns": [
+            "What are the key features of the Mixology Carts by Forbes with Chris Adams?",
+            "Can you explain the design philosophy behind the Mixology Carts?",
+            "How do the Mixology Carts enhance the guest experience?",
+            "What makes the Mixology Carts unique compared to other mobile mixology solutions?",
+            "Are there any customizable options available for the Mixology Carts?"
+          ],
+          "responses": [
+            "The Mixology Carts by Forbes with Chris Adams boast various key features designed to streamline the mixology process and elevate the guest experience.",
+            "The design philosophy behind the Mixology Carts emphasizes functionality, practicality, and aesthetic appeal, resulting in a unique and innovative mobile mixology solution.",
+            "The Mixology Carts enhance the guest experience by providing mixologists with intuitive tools and features to create exceptional cocktails, resulting in memorable moments for guests.",
+            "The Mixology Carts stand out from other mobile mixology solutions due to their innovative design, customizable options, and focus on user experience.",
+            "Yes, the Mixology Carts offer customizable options to meet the specific needs and preferences of users, allowing for a tailored mixology experience."
+          ]
+        }
+      ]
+    }
